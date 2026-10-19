@@ -1,51 +1,51 @@
-﻿No;LED;Kelime;Arapça;Ses dosyası adı;Ses hazır;Görsel (mevcut)
-1;0;Adalet;العَدَالَة;adalet.mp3;;img/adalet.svg
-2;1;Affetmek;العَفْو;affetmek.mp3;;img/affetmek.svg
-3;2;Akıl;العَقْل;akil.mp3;;img/akil.svg
-4;3;Alçakgönüllülük;التَّوَاضُع;alcakgonulluluk.mp3;;img/alcakgonulluluk.svg
-5;4;Anlayış;الفَهْم / الإِدْرَاك;anlayis.mp3;;img/anlayis.svg
-6;5;Arayış;الطَّلَب / البَحْث;arayis.mp3;;img/arayis.svg
-7;6;Aşk;العِشْق;ask.mp3;;img/ask.svg
-8;7;Ateş;النَّار;ates.mp3;;img/ates.svg
-9;8;Ayrılık;الفِرَاق / الفُرْقَة;ayrilik.mp3;;img/ayrilik.svg
-10;9;Barış;السَّلَام / الصُّلْح;baris.mp3;;img/baris.svg
-11;10;Bilgelik;الحِكْمَة;bilgelik.mp3;;img/bilgelik.svg
-12;11;Birlik;الوَحْدَة / التَّوْحِيد;birlik.mp3;;img/birlik.svg
-13;12;Cömertlik;السَّخَاء / الجُود;comertlik.mp3;;img/comertlik.svg
-14;13;Dinlemek;الاِسْتِمَاع / الإِنْصَات;dinlemek.mp3;;img/dinlemek.svg
-15;14;Doğruluk;الصِّدْق / السَّدَاد;dogruluk.mp3;;img/dogruluk.svg
-16;15;Dostluk;الصَّدَاقَة / المَوَدَّة;dostluk.mp3;;img/dostluk.svg
-17;16;Dönüşüm;التَّحَوُّل / التَّغَيُّر;donusum.mp3;;img/donusum.svg
-18;17;Gölge;الظِّلّ;golge.mp3;;img/golge.svg
-19;18;Gönül;القَلْب / الفُؤَاد;gonul.mp3;;img/gonul.svg
-20;19;Güzellik;الجَمَال;guzellik.mp3;;img/guzellik.svg
-21;20;Hakikat;الحَقِيقَة;hakikat.mp3;;img/hakikat.svg
-22;21;Hasret;الحَسْرَة / الشَّوْق;hasret.mp3;;img/hasret.svg
-23;22;Hikmet;الحِكْمَة;hikmet.mp3;;img/hikmet.svg
-24;23;Hoşgörü;التَّسَامُح / التَّسَاهُل;hosgoru.mp3;;img/hosgoru.svg
-25;24;Işık;النُّور / الضَّوْء;isik.mp3;;img/isik.svg
-26;25;İdrak;الإِدْرَاك;idrak.mp3;;img/idrak.svg
-27;26;İnsanlık;الإِنْسَانِيَّة;insanlik.mp3;;img/insanlik.svg
-28;27;İrfan;العِرْفَان;irfan.mp3;;img/irfan.svg
-29;28;İyilik;الإِحْسَان / الخَيْر;iyilik.mp3;;img/iyilik.svg
-30;29;Kalp;القَلْب;kalp.mp3;;img/kalp.svg
-31;30;Kanaat;القَنَاعَة;kanaat.mp3;;img/kanaat.svg
-32;31;Kardeşlik;الأُخُوَّة;kardeslik.mp3;;img/kardeslik.svg
-33;32;Kavuşma;الوَصْل / الوِصَال;kavusma.mp3;;img/kavusma.svg
-34;33;Marifet;المَعْرِفَة;marifet.mp3;;img/marifet.svg
-35;34;Merhamet;الرَّحْمَة;merhamet.mp3;;img/merhamet.svg
-36;35;Nefes;النَّفَس;nefes.mp3;;img/nefes.svg
-37;36;Ney;النَّاي;ney.mp3;;img/ney.svg
-38;37;Niyet;النِّيَّة;niyet.mp3;;img/niyet.svg
-39;38;Olgunluk;النُّضْج / الكَمَال;olgunluk.mp3;;img/olgunluk.svg
-40;39;Özlem;الشَّوْق / الحَنِين;ozlem.mp3;;img/ozlem.svg
-41;40;Ruh;الرُّوح;ruh.mp3;;img/ruh.svg
-42;41;Sabır;الصَّبْر;sabir.mp3;;img/sabir.svg
-43;42;Sadakat;الوَفَاء / الصِّدْق;sadakat.mp3;;img/sadakat.svg
-44;43;Samimiyet;الإِخْلَاص;samimiyet.mp3;;img/samimiyet.svg
-45;44;Sır;السِّرّ;sir.mp3;;img/sir.svg
-46;45;Şükür;الشُّكْر;sukur.mp3;;img/sukur.svg
-47;46;Tevazu;التَّوَاضُع;tevazu.mp3;;img/tevazu.svg
-48;47;Vefa;الوَفَاء;vefa.mp3;;img/vefa.svg
-49;48;Yol;الطَّرِيق / السَّبِيل;yol.mp3;;img/yol.svg
-50;49;Yolculuk;السَّفَر / الرِّحْلَة;yolculuk.mp3;;img/yolculuk.svg
+﻿No;LED;Kelime;Görsel dosyası;Ses dosyası;Söz
+1;0;Adalet;https://images.unsplash.com/photo-1587740896339-96a76170508d?w=1200&h=900&fit=crop&crop=top&q=80&fm=jpg;audio/adalet.mp3;Adalet nedir? Ağaçları sulamak… Zulüm nedir? Dikenlere su vermek…
+2;1;Affetmek;https://images.unsplash.com/photo-1564020435666-f67ed5319a32?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/affetmek.mp3;Affetmek bir zayıflık değil, kendine verdiğin bir armağandır.
+3;2;Akıl;https://images.unsplash.com/photo-1760570836868-28b088bd4324?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/akil.mp3;Akıl bir kuzu, nefis bir kurt, iman ise çobandır.
+4;3;Alçakgönüllülük;https://images.unsplash.com/photo-1650387106190-c6a9013f3fc8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/alcakgonulluluk.mp3;"Alçakgönüllülük benim asamdır; herkesin ayağının tozu olmak ise kılıcımdır."
+5;4;Anlayış;https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/anlayis.mp3;"Anlayış; kibirli bir bilgiçlik ile değil, alçakgönüllülük ile ortaya çıkar."
+6;5;Arayış;https://images.unsplash.com/photo-1555488205-d5e67846cf40?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/arayis.mp3;Aşk adayıştır, arayış değil! Sen adanmışsan ve yanmışsan bu uğurda, aşk seni bulmaya gelir.
+7;6;Aşk;https://images.unsplash.com/photo-1561212856-44e9bae482aa?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/ask.mp3;"Aşk; sandığın kadar değil, yandığın kadardır."
+8;7;Ateş;https://images.unsplash.com/photo-1507048947301-7afc2aca0edc?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/ates.mp3;Âşıkların gönüllerinin yanışıyla gözyaşları olmasaydı, dünyada su da olmazdı ateş de.
+9;8;Ayrılık;https://images.unsplash.com/photo-1667331634686-313ec875d91e?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/ayrilik.mp3;"Dinle neyden, bak neler söyler durur; dertlerinden, ayrılıktan dem vurur."
+10;9;Barış;https://images.unsplash.com/photo-1507126882445-434b04530d1a?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/baris.mp3;Barış, düşmanlığın son bulduğu değil, sevginin ve anlayışın yeşerdiği bir bahçedir.
+11;10;Bilgelik;https://images.unsplash.com/photo-1782906187500-b57299d96aa8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/bilgelik.mp3;Bilgelik konuştuğunda sessiz ol ve dinle!
+12;11;Birlik;https://images.unsplash.com/photo-1763747554376-74d21bad7dbd?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/birlik.mp3;Birlik bilgide değil, görmededir.
+13;12;Cömertlik;https://images.unsplash.com/photo-1506618689200-beb1d7f86e33?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/comertlik.mp3;Cömertlik ve yardım etmede akarsu gibi ol.
+14;13;Dinlemek;https://images.unsplash.com/photo-1684166251886-5c4fbb1d3c5b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/dinlemek.mp3;Başkasının ruhunu dinlemek, bir insanın bir başkası için yaptığı en büyük hizmet olabilir.
+15;14;Doğruluk;https://images.unsplash.com/photo-1756365951512-b15739bfbf4c?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/dogruluk.mp3;Cümleler doğrudur sen doğru isen, doğruluk bulunmaz sen eğri isen.
+16;15;Dostluk;https://images.unsplash.com/photo-1672577060303-216025d3536f?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/dostluk.mp3;Çelik ve demir kırılır ama sağlam dostluk ne solar ne de kırılır.
+17;16;Dönüşüm;https://images.unsplash.com/photo-1566232005979-201e12892389?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/donusum.mp3;Gerçek dönüşüm yalnızlıkla başlar.
+18;17;Gölge;https://images.unsplash.com/photo-1663790682196-926e224c50a7?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/golge.mp3;Duvar uzun gölge salsa da, o gölge yine döner aslına.
+19;18;Gönül;https://images.unsplash.com/photo-1530906622963-8a60586a49c7?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/gonul.mp3;"Gönül Çalab'ın tahtı, Çalap gönüle baktı; iki cihan bedbahtı, kim gönül yıkar ise."
+20;19;Güzellik;https://images.unsplash.com/photo-1775591649052-bd0778172751?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/guzellik.mp3;Kimde bir güzellik varsa, bilsin ki ödünçtür.
+21;20;Hakikat;https://images.unsplash.com/photo-1759930018644-ddf215c741f1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/hakikat.mp3;"Hakikat bir aynaydı; yere düştü ve parçalandı. Herkes bir parçasını aldı, baktı ve hakikati bulduğunu sandı."
+22;21;Hasret;https://images.unsplash.com/photo-1511634829096-045a111727eb?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/hasret.mp3;"Parmak kaleme hasret, kalem kâğıda hasret; kâğıt kelâma hasret, kelâm ilhama hasret."
+23;22;Hikmet;https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/hikmet.mp3;Hikmet, bir feyiz ağacıdır ki kökü kalpte, yemişleri ağızdadır.
+24;23;Hoşgörü;https://images.unsplash.com/photo-1468581264429-2548ef9eb732?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/hosgoru.mp3;Hoşgörülükte deniz gibi ol.
+25;24;Işık;https://images.unsplash.com/photo-1569924259120-22d9307489cf?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/isik.mp3;Geceyi seyrede seyrede öğrendim ki ışık insanın içinde yanmıyorsa yüzüne vurmuyor.
+26;25;İdrak;https://images.unsplash.com/photo-1490682143684-14369e18dce8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/idrak.mp3;Akıl ilmin temeli, idrakin sebebidir.
+27;26;İnsanlık;https://images.unsplash.com/photo-1542323228-002ac256e7b8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/insanlik.mp3;İnsanlık, içimizdeki merhametin dışa vurulmuş hâlidir.
+28;27;İrfan;https://images.unsplash.com/photo-1660568704661-8f11a707784b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/irfan.mp3;Akıllı ve irfan sahibi kimse, meyveli ağaç gibi mütevazı olur.
+29;28;İyilik;https://images.unsplash.com/photo-1505455184862-554165e5f6ba?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/iyilik.mp3;Gerçek sevgi, iyilik gördüğünde artmayan, kötülük gördüğünde eksilmeyendir.
+30;29;Kalp;https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/kalp.mp3;"Kalp denizdir, dil de kıyı; denizde ne varsa kıyıya o vurur."
+31;30;Kanaat;https://images.unsplash.com/photo-1535395155851-2088a2a94701?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/kanaat.mp3;Kanaat, bitmez tükenmez bir hazinedir.
+32;31;Kardeşlik;https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/kardeslik.mp3;Kardeşlik öyle bir denizdir ki dibi bulunmaz, öyle bir sırdır ki her gönül kaldırmaz.
+33;32;Kavuşma;https://images.unsplash.com/photo-1559769732-3a943df124b0?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/kavusma.mp3;Bu hâl sana batmak, kaybolmak gibi görünse de aslında doğmaktır, yeniden hayata kavuşmaktır.
+34;33;Marifet;https://images.unsplash.com/photo-1581084121296-8b65c4f80452?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/marifet.mp3;Kusur bulmak için bakma birine, kusuru örtmeyi marifet edin kendine.
+35;34;Merhamet;https://images.unsplash.com/photo-1531917517452-0068c593a675?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/merhamet.mp3;Şefkat ve merhamette güneş gibi ol.
+36;35;Nefes;https://images.unsplash.com/photo-1696279976107-4d80eb0a7d82?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/nefes.mp3;Nefes sese dönüşür, ses hikâyeye, hikâye hakikate varır.
+37;36;Ney;https://images.unsplash.com/photo-1645772647876-76f184a402a1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/ney.mp3;Dinle bu ney nasıl şikâyet etmede, ayrılıkları nasıl hikâye etmede.
+38;37;Niyet;https://images.unsplash.com/photo-1707129901265-c5bfee67a60b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/niyet.mp3;Allah'ın kuluna yardımı, kulun niyeti kadardır.
+39;38;Olgunluk;https://images.unsplash.com/photo-1763323881052-e83de577e7cd?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/olgunluk.mp3;Olgunluk yaşla değil, sorumluluk duygusu ve yaşanan deneyimlerle gelir.
+40;39;Özlem;https://images.unsplash.com/photo-1599615811451-4ceffd586d65?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/ozlem.mp3;İnanan bilir ki özlemlerin sonu vuslat, hüzünlerin sonu tebessümdür.
+41;40;Ruh;https://images.unsplash.com/photo-1707517009384-c58605e7cdd9?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/ruh.mp3;Beden yemekle, ruh ise yedirmekle doyar.
+42;41;Sabır;https://images.unsplash.com/photo-1556010656-e60700d4c0d5?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/sabir.mp3;Sabır nedir? Dikene bakıp gülü, geceye bakıp gündüzü tahayyül edebilmektir.
+43;42;Sadakat;https://images.unsplash.com/photo-1600364906358-46c2d712a646?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/sadakat.mp3;"Sadakat; gülü koparmak değil, koklamaktır."
+44;43;Samimiyet;https://images.unsplash.com/photo-1620416265040-cc777cad1883?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/samimiyet.mp3;Samimiyet, dilimiz ile kalbimizin bir olmasıdır.
+45;44;Sır;https://images.unsplash.com/photo-1590280986931-d675a2cf9b2e?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/sir.mp3;"Sır gibi seversen muradın gerçekleşir; çünkü tohum toprağa gizlenirse yeşerir."
+46;45;Şükür;https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/sukur.mp3;"Şükür; nimeti değil, vereni görmektir."
+47;46;Tevazu;https://images.unsplash.com/photo-1642952273588-ed6fa28870ac?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/tevazu.mp3;Tevazu ve alçak gönüllülükte toprak gibi ol.
+48;47;Vefa;https://images.unsplash.com/photo-1589878607495-6f7c03973ca0?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/vefa.mp3;Vefa, dost ikliminde yaşayan güllerdendir.
+49;48;Yol;https://images.unsplash.com/photo-1542169096-d626c9d082ab?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/yol.mp3;Gönlü açık olanın yolu da açık olur.
+50;49;Yolculuk;https://images.unsplash.com/photo-1777929746539-f8b2c6ac0801?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg;audio/yolculuk.mp3;Yolculuk bizi kendimize geri getirir.

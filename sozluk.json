@@ -6,15 +6,10 @@
     "slug": "adalet",
     "ar": "العدالة",
     "ar_harakeli": "العَدَالَة",
-    "gorsel": "img/adalet.svg",
+    "soz": "Adalet nedir? Ağaçları sulamak… Zulüm nedir? Dikenlere su vermek…",
+    "foto": "https://images.unsplash.com/photo-1587740896339-96a76170508d?w=1200&h=900&fit=crop&crop=top&q=80&fm=jpg",
     "ses": "audio/adalet.mp3",
-    "tdk_madde": "adalet",
-    "koken": "Arapça ʿadālet",
-    "tdk": [
-      "Hak ve hukuka uygunluk, hakkı gözetme",
-      "Yasalarla sahip olunan hakların herkes tarafından kullanılmasının sağlanması; türe",
-      "Herkese kendine uygun düşeni, kendi hakkı olanı verme"
-    ]
+    "ses_var": false
   },
   {
     "id": 2,
@@ -23,14 +18,10 @@
     "slug": "affetmek",
     "ar": "العفو",
     "ar_harakeli": "العَفْو",
-    "gorsel": "img/affetmek.svg",
+    "soz": "Affetmek bir zayıflık değil, kendine verdiğin bir armağandır.",
+    "foto": "https://images.unsplash.com/photo-1564020435666-f67ed5319a32?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/affetmek.mp3",
-    "tdk_madde": "affetmek",
-    "koken": "Arapça ʿafv + Türkçe etmek",
-    "tdk": [
-      "(bağışlamak) Herhangi bir kötü davranış için ceza vermekten vazgeçmek; affetmek, affeylemek",
-      "Hoşgörü ile karşılamak; mazur görmek"
-    ]
+    "ses_var": false
   },
   {
     "id": 3,
@@ -39,14 +30,10 @@
     "slug": "akil",
     "ar": "العقل",
     "ar_harakeli": "العَقْل",
-    "gorsel": "img/akil.svg",
+    "soz": "Akıl bir kuzu, nefis bir kurt, iman ise çobandır.",
+    "foto": "https://images.unsplash.com/photo-1760570836868-28b088bd4324?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/akil.mp3",
-    "tdk_madde": "akıl",
-    "koken": "Arapça ʿaḳl",
-    "tdk": [
-      "Düşünme, anlama ve kavrama gücü; us",
-      "Bir şeyi başka bir şeyden ayırt etme gücü"
-    ]
+    "ses_var": false
   },
   {
     "id": 4,
@@ -55,13 +42,10 @@
     "slug": "alcakgonulluluk",
     "ar": "التواضع",
     "ar_harakeli": "التَّوَاضُع",
-    "gorsel": "img/alcakgonulluluk.svg",
+    "soz": "Alçakgönüllülük benim asamdır; herkesin ayağının tozu olmak ise kılıcımdır.",
+    "foto": "https://images.unsplash.com/photo-1650387106190-c6a9013f3fc8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/alcakgonulluluk.mp3",
-    "tdk_madde": "alçak gönüllülük",
-    "koken": "",
-    "tdk": [
-      "Alçak gönüllü olma durumu; huşu, tevazu, mahviyet, mütevazılık"
-    ]
+    "ses_var": false
   },
   {
     "id": 5,
@@ -70,15 +54,10 @@
     "slug": "anlayis",
     "ar": "الفهم / الإدراك",
     "ar_harakeli": "الفَهْم / الإِدْرَاك",
-    "gorsel": "img/anlayis.svg",
+    "soz": "Anlayış; kibirli bir bilgiçlik ile değil, alçakgönüllülük ile ortaya çıkar.",
+    "foto": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/anlayis.mp3",
-    "tdk_madde": "anlayış",
-    "koken": "",
-    "tdk": [
-      "Anlamak işi; idrak, telakki",
-      "Anlama yeteneği; feraset, izan",
-      "Hoş görme"
-    ]
+    "ses_var": false
   },
   {
     "id": 6,
@@ -87,13 +66,10 @@
     "slug": "arayis",
     "ar": "الطلب / البحث",
     "ar_harakeli": "الطَّلَب / البَحْث",
-    "gorsel": "img/arayis.svg",
+    "soz": "Aşk adayıştır, arayış değil! Sen adanmışsan ve yanmışsan bu uğurda, aşk seni bulmaya gelir.",
+    "foto": "https://images.unsplash.com/photo-1555488205-d5e67846cf40?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/arayis.mp3",
-    "tdk_madde": "arayış",
-    "koken": "",
-    "tdk": [
-      "Aramak işi"
-    ]
+    "ses_var": false
   },
   {
     "id": 7,
@@ -102,13 +78,10 @@
     "slug": "ask",
     "ar": "العشق",
     "ar_harakeli": "العِشْق",
-    "gorsel": "img/ask.svg",
+    "soz": "Aşk; sandığın kadar değil, yandığın kadardır.",
+    "foto": "https://images.unsplash.com/photo-1561212856-44e9bae482aa?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ask.mp3",
-    "tdk_madde": "aşk",
-    "koken": "Arapça ʿışḳ",
-    "tdk": [
-      "Bir kimse veya bir şeye karşı duyulan çok kuvvetli sevgi ve bağlılık duygusu; sevi, amor"
-    ]
+    "ses_var": false
   },
   {
     "id": 8,
@@ -117,13 +90,10 @@
     "slug": "ates",
     "ar": "النار",
     "ar_harakeli": "النَّار",
-    "gorsel": "img/ates.svg",
+    "soz": "Âşıkların gönüllerinin yanışıyla gözyaşları olmasaydı, dünyada su da olmazdı ateş de.",
+    "foto": "https://images.unsplash.com/photo-1507048947301-7afc2aca0edc?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ates.mp3",
-    "tdk_madde": "ateş",
-    "koken": "Farsça āteş",
-    "tdk": [
-      "Yanıcı cisimlerin tutuşmasıyla beliren ısı ve ışık; od, nâr"
-    ]
+    "ses_var": false
   },
   {
     "id": 9,
@@ -132,14 +102,10 @@
     "slug": "ayrilik",
     "ar": "الفراق / الفرقة",
     "ar_harakeli": "الفِرَاق / الفُرْقَة",
-    "gorsel": "img/ayrilik.svg",
+    "soz": "Dinle neyden, bak neler söyler durur; dertlerinden, ayrılıktan dem vurur.",
+    "foto": "https://images.unsplash.com/photo-1667331634686-313ec875d91e?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ayrilik.mp3",
-    "tdk_madde": "ayrılık",
-    "koken": "",
-    "tdk": [
-      "Ayrı olma durumu",
-      "Birinden uzak düşme; firak, firkat"
-    ]
+    "ses_var": false
   },
   {
     "id": 10,
@@ -148,14 +114,10 @@
     "slug": "baris",
     "ar": "السلام / الصلح",
     "ar_harakeli": "السَّلَام / الصُّلْح",
-    "gorsel": "img/baris.svg",
+    "soz": "Barış, düşmanlığın son bulduğu değil, sevginin ve anlayışın yeşerdiği bir bahçedir.",
+    "foto": "https://images.unsplash.com/photo-1507126882445-434b04530d1a?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/baris.mp3",
-    "tdk_madde": "barış",
-    "koken": "",
-    "tdk": [
-      "Savaşın bittiğinin bir antlaşmayla belirtilmesinden sonraki durum; sulh, hazar",
-      "Uyum, karşılıklı anlayış ve hoşgörü ile oluşturulan ortam"
-    ]
+    "ses_var": false
   },
   {
     "id": 11,
@@ -164,14 +126,10 @@
     "slug": "bilgelik",
     "ar": "الحكمة",
     "ar_harakeli": "الحِكْمَة",
-    "gorsel": "img/bilgelik.svg",
+    "soz": "Bilgelik konuştuğunda sessiz ol ve dinle!",
+    "foto": "https://images.unsplash.com/photo-1782906187500-b57299d96aa8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/bilgelik.mp3",
-    "tdk_madde": "bilgelik",
-    "koken": "",
-    "tdk": [
-      "Bilge olma durumu ve niteliği",
-      "İlk Çağ felsefesinde kendini tanımanın bilgisi"
-    ]
+    "ses_var": false
   },
   {
     "id": 12,
@@ -180,14 +138,10 @@
     "slug": "birlik",
     "ar": "الوحدة / التوحيد",
     "ar_harakeli": "الوَحْدَة / التَّوْحِيد",
-    "gorsel": "img/birlik.svg",
+    "soz": "Birlik bilgide değil, görmededir.",
+    "foto": "https://images.unsplash.com/photo-1763747554376-74d21bad7dbd?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/birlik.mp3",
-    "tdk_madde": "birlik",
-    "koken": "",
-    "tdk": [
-      "Tek, bir olma durumu",
-      "Bir arada olma durumu"
-    ]
+    "ses_var": false
   },
   {
     "id": 13,
@@ -196,13 +150,10 @@
     "slug": "comertlik",
     "ar": "السخاء / الجود",
     "ar_harakeli": "السَّخَاء / الجُود",
-    "gorsel": "img/comertlik.svg",
+    "soz": "Cömertlik ve yardım etmede akarsu gibi ol.",
+    "foto": "https://images.unsplash.com/photo-1506618689200-beb1d7f86e33?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/comertlik.mp3",
-    "tdk_madde": "cömertlik",
-    "koken": "",
-    "tdk": [
-      "Cömert olma durumu; açık ellilik, ahilik, alicenaplık, bonkörlük eli açıklık, seleklik, kerem, semahat, mürüvvet"
-    ]
+    "ses_var": false
   },
   {
     "id": 14,
@@ -211,14 +162,10 @@
     "slug": "dinlemek",
     "ar": "الاستماع / الإنصات",
     "ar_harakeli": "الاِسْتِمَاع / الإِنْصَات",
-    "gorsel": "img/dinlemek.svg",
+    "soz": "Başkasının ruhunu dinlemek, bir insanın bir başkası için yaptığı en büyük hizmet olabilir.",
+    "foto": "https://images.unsplash.com/photo-1684166251886-5c4fbb1d3c5b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/dinlemek.mp3",
-    "tdk_madde": "dinlemek",
-    "koken": "",
-    "tdk": [
-      "İşitmek için kulak vermek",
-      "Birinin sözünü, öğüdünü kabul edip gereğince davranmak"
-    ]
+    "ses_var": false
   },
   {
     "id": 15,
@@ -227,14 +174,10 @@
     "slug": "dogruluk",
     "ar": "الصدق / السداد",
     "ar_harakeli": "الصِّدْق / السَّدَاد",
-    "gorsel": "img/dogruluk.svg",
+    "soz": "Cümleler doğrudur sen doğru isen, doğruluk bulunmaz sen eğri isen.",
+    "foto": "https://images.unsplash.com/photo-1756365951512-b15739bfbf4c?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/dogruluk.mp3",
-    "tdk_madde": "doğruluk",
-    "koken": "",
-    "tdk": [
-      "Doğru ve dürüst olma durumu, doğru olana yakışır davranış; dürüstlük",
-      "Düşüncenin gerçekle uyuşması, yargı ve önermelerin gerçeğe uygun olması"
-    ]
+    "ses_var": false
   },
   {
     "id": 16,
@@ -243,14 +186,10 @@
     "slug": "dostluk",
     "ar": "الصداقة / المودة",
     "ar_harakeli": "الصَّدَاقَة / المَوَدَّة",
-    "gorsel": "img/dostluk.svg",
+    "soz": "Çelik ve demir kırılır ama sağlam dostluk ne solar ne de kırılır.",
+    "foto": "https://images.unsplash.com/photo-1672577060303-216025d3536f?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/dostluk.mp3",
-    "tdk_madde": "dostluk",
-    "koken": "",
-    "tdk": [
-      "Dost olma durumu; mihribanlık, ülfet",
-      "Dostça davranış"
-    ]
+    "ses_var": false
   },
   {
     "id": 17,
@@ -259,13 +198,10 @@
     "slug": "donusum",
     "ar": "التحول / التغير",
     "ar_harakeli": "التَّحَوُّل / التَّغَيُّر",
-    "gorsel": "img/donusum.svg",
+    "soz": "Gerçek dönüşüm yalnızlıkla başlar.",
+    "foto": "https://images.unsplash.com/photo-1566232005979-201e12892389?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/donusum.mp3",
-    "tdk_madde": "dönüşüm",
-    "koken": "",
-    "tdk": [
-      "Bir durumdan başka bir duruma geçme; şekil değiştirme, tahavvül, transformasyon"
-    ]
+    "ses_var": false
   },
   {
     "id": 18,
@@ -274,14 +210,10 @@
     "slug": "golge",
     "ar": "الظل",
     "ar_harakeli": "الظِّلّ",
-    "gorsel": "img/golge.svg",
+    "soz": "Duvar uzun gölge salsa da, o gölge yine döner aslına.",
+    "foto": "https://images.unsplash.com/photo-1663790682196-926e224c50a7?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/golge.mp3",
-    "tdk_madde": "gölge",
-    "koken": "",
-    "tdk": [
-      "Saydam olmayan bir cisim tarafından ışığın engellenmesiyle ışıklı yerde oluşan karanlık; saye",
-      "Güneş ışınlarından korunacak yer; saye"
-    ]
+    "ses_var": false
   },
   {
     "id": 19,
@@ -290,13 +222,10 @@
     "slug": "gonul",
     "ar": "القلب / الفؤاد",
     "ar_harakeli": "القَلْب / الفُؤَاد",
-    "gorsel": "img/gonul.svg",
+    "soz": "Gönül Çalab'ın tahtı, Çalap gönüle baktı; iki cihan bedbahtı, kim gönül yıkar ise.",
+    "foto": "https://images.unsplash.com/photo-1530906622963-8a60586a49c7?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/gonul.mp3",
-    "tdk_madde": "gönül",
-    "koken": "",
-    "tdk": [
-      "Sevgi, istek, düşünüş, anma, hatır vb. duyguların kaynağı; içeri, yürek, dil (II), kalp (I)"
-    ]
+    "ses_var": false
   },
   {
     "id": 20,
@@ -305,14 +234,10 @@
     "slug": "guzellik",
     "ar": "الجمال",
     "ar_harakeli": "الجَمَال",
-    "gorsel": "img/guzellik.svg",
+    "soz": "Kimde bir güzellik varsa, bilsin ki ödünçtür.",
+    "foto": "https://images.unsplash.com/photo-1775591649052-bd0778172751?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/guzellik.mp3",
-    "tdk_madde": "güzellik",
-    "koken": "",
-    "tdk": [
-      "Estetik bir zevk, coşku, hoşlanma duygusu uyandıran nitelik; hüsün",
-      "Ahlak ve fikrî nitelikleriyle hayranlık uyandıran şey"
-    ]
+    "ses_var": false
   },
   {
     "id": 21,
@@ -321,13 +246,10 @@
     "slug": "hakikat",
     "ar": "الحقيقة",
     "ar_harakeli": "الحَقِيقَة",
-    "gorsel": "img/hakikat.svg",
+    "soz": "Hakikat bir aynaydı; yere düştü ve parçalandı. Herkes bir parçasını aldı, baktı ve hakikati bulduğunu sandı.",
+    "foto": "https://images.unsplash.com/photo-1759930018644-ddf215c741f1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hakikat.mp3",
-    "tdk_madde": "hakikat",
-    "koken": "Arapça ḥaḳīḳat",
-    "tdk": [
-      "(gerçek) Yalan olmayan, doğru olan şey; çın, ciddi, hakikat"
-    ]
+    "ses_var": false
   },
   {
     "id": 22,
@@ -336,13 +258,10 @@
     "slug": "hasret",
     "ar": "الحسرة / الشوق",
     "ar_harakeli": "الحَسْرَة / الشَّوْق",
-    "gorsel": "img/hasret.svg",
+    "soz": "Parmak kaleme hasret, kalem kâğıda hasret; kâğıt kelâma hasret, kelâm ilhama hasret.",
+    "foto": "https://images.unsplash.com/photo-1511634829096-045a111727eb?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hasret.mp3",
-    "tdk_madde": "hasret",
-    "koken": "Arapça ḥasret",
-    "tdk": [
-      "(özlem) Bir kimseyi veya bir şeyi görme, kavuşma isteği; özlenti,  hasret, tahassür"
-    ]
+    "ses_var": false
   },
   {
     "id": 23,
@@ -351,15 +270,10 @@
     "slug": "hikmet",
     "ar": "الحكمة",
     "ar_harakeli": "الحِكْمَة",
-    "gorsel": "img/hikmet.svg",
+    "soz": "Hikmet, bir feyiz ağacıdır ki kökü kalpte, yemişleri ağızdadır.",
+    "foto": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hikmet.mp3",
-    "tdk_madde": "hikmet",
-    "koken": "Arapça ḥikmet",
-    "tdk": [
-      "Tanrı'nın insanlar tarafından anlaşılamayan amacı",
-      "Bir şeyin oluşundaki akıl erdirilemeyen gizli sebep",
-      "Hak ve hakikate uygun, kısa ve anlamlı söz"
-    ]
+    "ses_var": false
   },
   {
     "id": 24,
@@ -368,13 +282,10 @@
     "slug": "hosgoru",
     "ar": "التسامح / التساهل",
     "ar_harakeli": "التَّسَامُح / التَّسَاهُل",
-    "gorsel": "img/hosgoru.svg",
+    "soz": "Hoşgörülükte deniz gibi ol.",
+    "foto": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hosgoru.mp3",
-    "tdk_madde": "hoşgörü",
-    "koken": "",
-    "tdk": [
-      "Yapılan yanlış veya kötü davranışları anlayışla karşılayarak affetme, sert ve katı hükümlü olmama; müsamaha, tolerans"
-    ]
+    "ses_var": false
   },
   {
     "id": 25,
@@ -383,14 +294,10 @@
     "slug": "isik",
     "ar": "النور / الضوء",
     "ar_harakeli": "النُّور / الضَّوْء",
-    "gorsel": "img/isik.svg",
+    "soz": "Geceyi seyrede seyrede öğrendim ki ışık insanın içinde yanmıyorsa yüzüne vurmuyor.",
+    "foto": "https://images.unsplash.com/photo-1569924259120-22d9307489cf?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/isik.mp3",
-    "tdk_madde": "ışık",
-    "koken": "",
-    "tdk": [
-      "Cisimleri görmeyi, renkleri ayırt etmeyi sağlayan fiziksel enerji; çerağ, ziya, nur, şavk",
-      "Mutluluk, sevinç veya zekâdan doğan, özellikle yüzde ve gözlerde beliren parıltı"
-    ]
+    "ses_var": false
   },
   {
     "id": 26,
@@ -399,14 +306,10 @@
     "slug": "idrak",
     "ar": "الإدراك",
     "ar_harakeli": "الإِدْرَاك",
-    "gorsel": "img/idrak.svg",
+    "soz": "Akıl ilmin temeli, idrakin sebebidir.",
+    "foto": "https://images.unsplash.com/photo-1490682143684-14369e18dce8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/idrak.mp3",
-    "tdk_madde": "idrak",
-    "koken": "Arapça idrāk",
-    "tdk": [
-      "(anlayış) Anlamak işi; idrak, telakki",
-      "Bir zamana veya olaya erişme"
-    ]
+    "ses_var": false
   },
   {
     "id": 27,
@@ -415,15 +318,10 @@
     "slug": "insanlik",
     "ar": "الإنسانية",
     "ar_harakeli": "الإِنْسَانِيَّة",
-    "gorsel": "img/insanlik.svg",
+    "soz": "İnsanlık, içimizdeki merhametin dışa vurulmuş hâlidir.",
+    "foto": "https://images.unsplash.com/photo-1542323228-002ac256e7b8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/insanlik.mp3",
-    "tdk_madde": "insanlık",
-    "koken": "",
-    "tdk": [
-      "İnsan olma durumu; insaniyet",
-      "İnsanca davranma; insaniyet",
-      "İnsanların tümü; beşeriyet"
-    ]
+    "ses_var": false
   },
   {
     "id": 28,
@@ -432,14 +330,10 @@
     "slug": "irfan",
     "ar": "العرفان",
     "ar_harakeli": "العِرْفَان",
-    "gorsel": "img/irfan.svg",
+    "soz": "Akıllı ve irfan sahibi kimse, meyveli ağaç gibi mütevazı olur.",
+    "foto": "https://images.unsplash.com/photo-1660568704661-8f11a707784b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/irfan.mp3",
-    "tdk_madde": "irfan",
-    "koken": "Arapça ʿirfān",
-    "tdk": [
-      "Bilme, anlama, sezme",
-      "Gerçeğe ulaştırıcı güçlü seziş"
-    ]
+    "ses_var": false
   },
   {
     "id": 29,
@@ -448,14 +342,10 @@
     "slug": "iyilik",
     "ar": "الإحسان / الخير",
     "ar_harakeli": "الإِحْسَان / الخَيْر",
-    "gorsel": "img/iyilik.svg",
+    "soz": "Gerçek sevgi, iyilik gördüğünde artmayan, kötülük gördüğünde eksilmeyendir.",
+    "foto": "https://images.unsplash.com/photo-1505455184862-554165e5f6ba?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/iyilik.mp3",
-    "tdk_madde": "iyilik",
-    "koken": "",
-    "tdk": [
-      "İyi olma durumu; salah",
-      "Karşılık beklenilmeden yapılan yardım; kerem, ihsan"
-    ]
+    "ses_var": false
   },
   {
     "id": 30,
@@ -464,14 +354,10 @@
     "slug": "kalp",
     "ar": "القلب",
     "ar_harakeli": "القَلْب",
-    "gorsel": "img/kalp.svg",
+    "soz": "Kalp denizdir, dil de kıyı; denizde ne varsa kıyıya o vurur.",
+    "foto": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kalp.mp3",
-    "tdk_madde": "kalp",
-    "koken": "Arapça ḳalb",
-    "tdk": [
-      "Göğüs orta boşluğunda, iki akciğer arasında, vücudun her yanından gelen kirli kanı akciğerlere ve oradan gelen temiz kanı da vücuda dağıtan organ; yürek",
-      "(gönül) Sevgi, istek, düşünüş, anma, hatır vb. duyguların kaynağı; içeri, yürek, dil (II), kalp (I)"
-    ]
+    "ses_var": false
   },
   {
     "id": 31,
@@ -480,13 +366,10 @@
     "slug": "kanaat",
     "ar": "القناعة",
     "ar_harakeli": "القَنَاعَة",
-    "gorsel": "img/kanaat.svg",
+    "soz": "Kanaat, bitmez tükenmez bir hazinedir.",
+    "foto": "https://images.unsplash.com/photo-1535395155851-2088a2a94701?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kanaat.mp3",
-    "tdk_madde": "kanaat",
-    "koken": "Arapça ḳanāʿat",
-    "tdk": [
-      "Elindekinden hoşnut olma durumu, yeter bulma, fazlasını istememe"
-    ]
+    "ses_var": false
   },
   {
     "id": 32,
@@ -495,14 +378,10 @@
     "slug": "kardeslik",
     "ar": "الأخوة",
     "ar_harakeli": "الأُخُوَّة",
-    "gorsel": "img/kardeslik.svg",
+    "soz": "Kardeşlik öyle bir denizdir ki dibi bulunmaz, öyle bir sırdır ki her gönül kaldırmaz.",
+    "foto": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kardeslik.mp3",
-    "tdk_madde": "kardeşlik",
-    "koken": "",
-    "tdk": [
-      "Kardeş olma durumu; karındaşlık, uhuvvet",
-      "Birlik ve beraberlik"
-    ]
+    "ses_var": false
   },
   {
     "id": 33,
@@ -511,13 +390,10 @@
     "slug": "kavusma",
     "ar": "الوصل / الوصال",
     "ar_harakeli": "الوَصْل / الوِصَال",
-    "gorsel": "img/kavusma.svg",
+    "soz": "Bu hâl sana batmak, kaybolmak gibi görünse de aslında doğmaktır, yeniden hayata kavuşmaktır.",
+    "foto": "https://images.unsplash.com/photo-1559769732-3a943df124b0?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kavusma.mp3",
-    "tdk_madde": "kavuşma",
-    "koken": "",
-    "tdk": [
-      "Kavuşmak işi; muvasala, telaki, vasl, visal"
-    ]
+    "ses_var": false
   },
   {
     "id": 34,
@@ -526,14 +402,10 @@
     "slug": "marifet",
     "ar": "المعرفة",
     "ar_harakeli": "المَعْرِفَة",
-    "gorsel": "img/marifet.svg",
+    "soz": "Kusur bulmak için bakma birine, kusuru örtmeyi marifet edin kendine.",
+    "foto": "https://images.unsplash.com/photo-1581084121296-8b65c4f80452?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/marifet.mp3",
-    "tdk_madde": "marifet",
-    "koken": "Arapça maʿrifet",
-    "tdk": [
-      "Herhangi bir işi yapmada ustalık",
-      "Gerçeği bilme"
-    ]
+    "ses_var": false
   },
   {
     "id": 35,
@@ -542,13 +414,10 @@
     "slug": "merhamet",
     "ar": "الرحمة",
     "ar_harakeli": "الرَّحْمَة",
-    "gorsel": "img/merhamet.svg",
+    "soz": "Şefkat ve merhamette güneş gibi ol.",
+    "foto": "https://images.unsplash.com/photo-1531917517452-0068c593a675?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/merhamet.mp3",
-    "tdk_madde": "merhamet",
-    "koken": "Arapça merḥamet",
-    "tdk": [
-      "Bir kimsenin veya bir başka canlının karşılaştığı kötü durumdan dolayı duyulan üzüntü, acıma"
-    ]
+    "ses_var": false
   },
   {
     "id": 36,
@@ -557,14 +426,10 @@
     "slug": "nefes",
     "ar": "النفس",
     "ar_harakeli": "النَّفَس",
-    "gorsel": "img/nefes.svg",
+    "soz": "Nefes sese dönüşür, ses hikâyeye, hikâye hakikate varır.",
+    "foto": "https://images.unsplash.com/photo-1696279976107-4d80eb0a7d82?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/nefes.mp3",
-    "tdk_madde": "nefes",
-    "koken": "Arapça nefes",
-    "tdk": [
-      "(soluk) Akciğerlere çekilen, akciğerlerden atılan hava; dem (I), nefes (I)",
-      "Canlılık, hayat belirtisi"
-    ]
+    "ses_var": false
   },
   {
     "id": 37,
@@ -573,13 +438,10 @@
     "slug": "ney",
     "ar": "الناي",
     "ar_harakeli": "النَّاي",
-    "gorsel": "img/ney.svg",
+    "soz": "Dinle bu ney nasıl şikâyet etmede, ayrılıkları nasıl hikâye etmede.",
+    "foto": "https://images.unsplash.com/photo-1645772647876-76f184a402a1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ney.mp3",
-    "tdk_madde": "ney",
-    "koken": "Farsça ney",
-    "tdk": [
-      "Klasik Türk müziğinde ve özellikle tekke müziğinde yer alan, kaval biçiminde, yanık sesli, kamıştan yapılmış, üflemeli bir çalgı"
-    ]
+    "ses_var": false
   },
   {
     "id": 38,
@@ -588,13 +450,10 @@
     "slug": "niyet",
     "ar": "النية",
     "ar_harakeli": "النِّيَّة",
-    "gorsel": "img/niyet.svg",
+    "soz": "Allah'ın kuluna yardımı, kulun niyeti kadardır.",
+    "foto": "https://images.unsplash.com/photo-1707129901265-c5bfee67a60b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/niyet.mp3",
-    "tdk_madde": "niyet",
-    "koken": "Arapça niyyet",
-    "tdk": [
-      "Bir şeyi yapmaya önceden karar verme; düşünce, endişe"
-    ]
+    "ses_var": false
   },
   {
     "id": 39,
@@ -603,13 +462,10 @@
     "slug": "olgunluk",
     "ar": "النضج / الكمال",
     "ar_harakeli": "النُّضْج / الكَمَال",
-    "gorsel": "img/olgunluk.svg",
+    "soz": "Olgunluk yaşla değil, sorumluluk duygusu ve yaşanan deneyimlerle gelir.",
+    "foto": "https://images.unsplash.com/photo-1763323881052-e83de577e7cd?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/olgunluk.mp3",
-    "tdk_madde": "olgunluk",
-    "koken": "",
-    "tdk": [
-      "İnsanların bilgi, görgü ve hoşgörü bakımından gereği kadar gelişmiş olma durumu; kâmillik, tamlık, yetkinlik, kemal"
-    ]
+    "ses_var": false
   },
   {
     "id": 40,
@@ -618,13 +474,10 @@
     "slug": "ozlem",
     "ar": "الشوق / الحنين",
     "ar_harakeli": "الشَّوْق / الحَنِين",
-    "gorsel": "img/ozlem.svg",
+    "soz": "İnanan bilir ki özlemlerin sonu vuslat, hüzünlerin sonu tebessümdür.",
+    "foto": "https://images.unsplash.com/photo-1599615811451-4ceffd586d65?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ozlem.mp3",
-    "tdk_madde": "özlem",
-    "koken": "",
-    "tdk": [
-      "Bir kimseyi veya bir şeyi görme, kavuşma isteği; özlenti,  hasret, tahassür"
-    ]
+    "ses_var": false
   },
   {
     "id": 41,
@@ -633,14 +486,10 @@
     "slug": "ruh",
     "ar": "الروح",
     "ar_harakeli": "الرُّوح",
-    "gorsel": "img/ruh.svg",
+    "soz": "Beden yemekle, ruh ise yedirmekle doyar.",
+    "foto": "https://images.unsplash.com/photo-1707517009384-c58605e7cdd9?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ruh.mp3",
-    "tdk_madde": "ruh",
-    "koken": "Arapça rūḥ",
-    "tdk": [
-      "Allah tarafından insan bedenine üflenen, ölümden sonra da varlığı devam eden ve mahiyeti tam olarak bilinemeyen ilahi ve manevi cevher; tin (I)",
-      "(can) İnsan ve hayvanlarda yaşamayı sağlayan ve ölümle vücuttan ayrılan madde dışı varlık; can kuşu, ruh"
-    ]
+    "ses_var": false
   },
   {
     "id": 42,
@@ -649,14 +498,10 @@
     "slug": "sabir",
     "ar": "الصبر",
     "ar_harakeli": "الصَّبْر",
-    "gorsel": "img/sabir.svg",
+    "soz": "Sabır nedir? Dikene bakıp gülü, geceye bakıp gündüzü tahayyül edebilmektir.",
+    "foto": "https://images.unsplash.com/photo-1556010656-e60700d4c0d5?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sabir.mp3",
-    "tdk_madde": "sabır",
-    "koken": "Arapça ṣabr",
-    "tdk": [
-      "Acı, yoksulluk, haksızlık vb. üzücü durumlar karşısında ses çıkarmadan onların geçmesini bekleme erdemi; dayanç, çıdam",
-      "Olacak veya gelecek bir şeyi telaş göstermeden bekleme"
-    ]
+    "ses_var": false
   },
   {
     "id": 43,
@@ -665,14 +510,10 @@
     "slug": "sadakat",
     "ar": "الوفاء / الصدق",
     "ar_harakeli": "الوَفَاء / الصِّدْق",
-    "gorsel": "img/sadakat.svg",
+    "soz": "Sadakat; gülü koparmak değil, koklamaktır.",
+    "foto": "https://images.unsplash.com/photo-1600364906358-46c2d712a646?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sadakat.mp3",
-    "tdk_madde": "sadakat",
-    "koken": "Arapça ṣadāḳat",
-    "tdk": [
-      "İçten bağlılık",
-      "Sağlam, güçlü dostluk"
-    ]
+    "ses_var": false
   },
   {
     "id": 44,
@@ -681,14 +522,10 @@
     "slug": "samimiyet",
     "ar": "الإخلاص",
     "ar_harakeli": "الإِخْلَاص",
-    "gorsel": "img/samimiyet.svg",
+    "soz": "Samimiyet, dilimiz ile kalbimizin bir olmasıdır.",
+    "foto": "https://images.unsplash.com/photo-1620416265040-cc777cad1883?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/samimiyet.mp3",
-    "tdk_madde": "samimiyet",
-    "koken": "Arapça ṣamīmiyyet",
-    "tdk": [
-      "(içtenlik) İçten olma durumu, içten davranış; samimilik, samimiyet",
-      "(açık yüreklilik) Açık yürekli olma durumu; samimiyet, açık kalplilik"
-    ]
+    "ses_var": false
   },
   {
     "id": 45,
@@ -697,15 +534,10 @@
     "slug": "sir",
     "ar": "السر",
     "ar_harakeli": "السِّرّ",
-    "gorsel": "img/sir.svg",
+    "soz": "Sır gibi seversen muradın gerçekleşir; çünkü tohum toprağa gizlenirse yeşerir.",
+    "foto": "https://images.unsplash.com/photo-1590280986931-d675a2cf9b2e?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sir.mp3",
-    "tdk_madde": "sır",
-    "koken": "Arapça sirr",
-    "tdk": [
-      "Varlığı veya bazı yönleri açığa vurulmak istenmeyen, gizli kalan, gizli tutulan şey",
-      "Aklın erişemediği, açıklanamayan veya çözülemeyen şey; giz (I), gizem, raz",
-      "Bir işin, bir şeyin dikkat, yetenek, deneyim ve sezgi yardımıyla kavranabilen en zor, en ince yanı"
-    ]
+    "ses_var": false
   },
   {
     "id": 46,
@@ -714,14 +546,10 @@
     "slug": "sukur",
     "ar": "الشكر",
     "ar_harakeli": "الشُّكْر",
-    "gorsel": "img/sukur.svg",
+    "soz": "Şükür; nimeti değil, vereni görmektir.",
+    "foto": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sukur.mp3",
-    "tdk_madde": "şükür",
-    "koken": "Arapça şukr",
-    "tdk": [
-      "Allah’a duyulan minneti dile getirme",
-      "Mutlu bir olay veya durumdan, yapılan bir iyilikten duyulan hoşnutluğu bildirme"
-    ]
+    "ses_var": false
   },
   {
     "id": 47,
@@ -730,13 +558,10 @@
     "slug": "tevazu",
     "ar": "التواضع",
     "ar_harakeli": "التَّوَاضُع",
-    "gorsel": "img/tevazu.svg",
+    "soz": "Tevazu ve alçak gönüllülükte toprak gibi ol.",
+    "foto": "https://images.unsplash.com/photo-1642952273588-ed6fa28870ac?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/tevazu.mp3",
-    "tdk_madde": "tevazu",
-    "koken": "Arapça tevāżuʿ",
-    "tdk": [
-      "(alçak gönüllülük) Alçak gönüllü olma durumu; huşu, tevazu, mahviyet, mütevazılık"
-    ]
+    "ses_var": false
   },
   {
     "id": 48,
@@ -745,13 +570,10 @@
     "slug": "vefa",
     "ar": "الوفاء",
     "ar_harakeli": "الوَفَاء",
-    "gorsel": "img/vefa.svg",
+    "soz": "Vefa, dost ikliminde yaşayan güllerdendir.",
+    "foto": "https://images.unsplash.com/photo-1589878607495-6f7c03973ca0?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/vefa.mp3",
-    "tdk_madde": "vefa",
-    "koken": "Arapça vefāʾ",
-    "tdk": [
-      "Sevgiyi sürdürme, sevgi, dostluk bağlılığı"
-    ]
+    "ses_var": false
   },
   {
     "id": 49,
@@ -760,14 +582,10 @@
     "slug": "yol",
     "ar": "الطريق / السبيل",
     "ar_harakeli": "الطَّرِيق / السَّبِيل",
-    "gorsel": "img/yol.svg",
+    "soz": "Gönlü açık olanın yolu da açık olur.",
+    "foto": "https://images.unsplash.com/photo-1542169096-d626c9d082ab?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/yol.mp3",
-    "tdk_madde": "yol",
-    "koken": "",
-    "tdk": [
-      "Karada, havada, suda bir yerden bir yere gitmek için aşılan uzaklık; sırat, tarik",
-      "Karada insanların ve hayvanların geçmesi için açılan veya kendi kendine oluşmuş, yürümeye uygun yer"
-    ]
+    "ses_var": false
   },
   {
     "id": 50,
@@ -776,12 +594,9 @@
     "slug": "yolculuk",
     "ar": "السفر / الرحلة",
     "ar_harakeli": "السَّفَر / الرِّحْلَة",
-    "gorsel": "img/yolculuk.svg",
+    "soz": "Yolculuk bizi kendimize geri getirir.",
+    "foto": "https://images.unsplash.com/photo-1777929746539-f8b2c6ac0801?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/yolculuk.mp3",
-    "tdk_madde": "yolculuk",
-    "koken": "",
-    "tdk": [
-      "Ülkeden ülkeye veya bir ülke içinde bir yerden bir yere gidiş veya geliş; yol, seyahat, sefer"
-    ]
+    "ses_var": false
   }
 ]

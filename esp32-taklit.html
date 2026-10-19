@@ -75,6 +75,13 @@
   function komutIsle(metin) {
     const t = metin.trim().toLowerCase();
     if (t === "off" || t === "-1") { sondur(); log("söndür komutu"); return; }
+    const m = t.match(/^off:(\d{1,2})$/);
+    if (m) {
+      const h = hucreler[+m[1]];
+      if (h && h.classList.contains("yanik")) { sondur(); log(`LED ${m[1]} söndürüldü (kart kapandı)`); }
+      else log(`off:${m[1]} — o LED zaten yanmıyor, atlandı`);
+      return;
+    }
     if (!/^\d{1,2}$/.test(t)) { log(`⚠ geçersiz komut reddedildi: "${metin}"`); return; }
     const i = +t;
     if (i < 0 || i >= CFG.ledSayisi) { log(`⚠ aralık dışı: ${i}`); return; }

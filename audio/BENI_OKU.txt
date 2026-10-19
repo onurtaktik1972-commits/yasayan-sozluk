@@ -1,0 +1,2 @@
+Kelime sesleri buraya gelir: <slug>.mp3 (ör. adalet.mp3, sukur.mp3).
+Sesi olmayan kelimede hoparlör düğmesi soluk görünür.

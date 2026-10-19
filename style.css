@@ -58,7 +58,7 @@ main{padding:14px 12px 120px;max-width:720px;margin:0 auto}
 .ilerleme span{display:block;height:100%;width:0;background:var(--altin);transition:width .2s linear}
 
 /* Bildirim */
-.bildirim{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;z-index:20;
+.bildirim{position:fixed;left:50%;top:calc(14px + env(safe-area-inset-top));transform:translate(-50%,-20px);opacity:0;z-index:20;
   background:#2a2118;color:#f3e7cf;padding:10px 16px;border-radius:12px;font-size:14px;transition:.25s;pointer-events:none;
   max-width:90vw;text-align:center}
 .bildirim.goster{opacity:1;transform:translate(-50%,0)}
@@ -108,3 +108,28 @@ main{padding:14px 12px 120px;max-width:720px;margin:0 auto}
 .tdk ol{margin:8px 0 0;padding-left:22px;color:#4a3d2e;font-size:15.5px;line-height:1.55}
 .tdk li{margin-bottom:6px}.tdk li::marker{color:var(--altin);font-weight:600}
 .tdk .bk{color:var(--soluk);font-style:italic}
+
+/* Hat levhası modu: Arapça yazı ve çerçeve görselin içinde */
+.gorsel.hat-modu .gorsel-yazi{display:none}
+.gorsel.hat-modu .cerceve{inset:0;border:0;box-shadow:none}
+.gorsel.hat-modu .cerceve::before{display:none}
+.gorsel.hat-modu .cerceve .kose{display:none}
+.gorsel.hat-modu .cerceve .sikke{top:2px;width:26px;height:33px}
+
+/* Özlü söz */
+.soz{position:relative;margin:18px 0 0;padding:18px 20px 16px;background:#f7efdc;border-radius:14px;
+  border:1px solid var(--cizgi);box-shadow:inset 0 0 0 4px #fbf6ea}
+.soz::before{content:"";position:absolute;left:20px;right:20px;top:0;height:3px;border-radius:0 0 3px 3px;
+  background:linear-gradient(90deg,transparent,var(--altin),transparent)}
+.soz blockquote{margin:0;font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:600;
+  font-size:23px;line-height:1.35;color:#2a2118}
+.soz blockquote::before{content:"\201C"}.soz blockquote::after{content:"\201D"}
+.soz figcaption{margin-top:10px;text-align:right;font-size:13.5px;letter-spacing:.02em;color:var(--soluk)}
+.kelime .k-ses{font-style:normal;font-size:13px;vertical-align:middle;opacity:.75}
+
+/* Fotoğraflara ortak üslup: sıcak ton, kenar karartması, altta kartuş için koyulaşma */
+.gorsel:not(.hat-modu) img{filter:saturate(.9) contrast(1.06) sepia(.14) brightness(.98)}
+.gorsel:not(.hat-modu)::before{content:"";position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(ellipse 75% 70% at 50% 42%, transparent 55%, rgba(14,10,6,.55) 100%),
+    linear-gradient(to bottom, transparent 60%, rgba(10,8,6,.55) 100%)}

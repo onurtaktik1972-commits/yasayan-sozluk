@@ -4,12 +4,13 @@
 //  MQTT ayarı yoksa TEST MODU: komut sanal LED şeridinde gösterilir.
 // =====================================================================
 (() => {
-  const CFG = Object.assign({ ledSayisi: 50, ledSuresiSn: 10, sanalSerit: "auto" }, window.SOZLUK_CONFIG || {});
+  const CFG = Object.assign({ ledSayisi: 50, ledSuresiSn: 60, sanalSerit: "auto", gorselModu: "otomatik" }, window.SOZLUK_CONFIG || {});
   const $ = (id) => document.getElementById(id);
   const debug = new URLSearchParams(location.search).has("debug");
 
   let sozluk = [];
   let secili = null;
+  let gorselSayac = 0;
   let mqttClient = null;
   let testModu = !(CFG.mqtt && CFG.mqtt.url);
   const ses = new Audio();
@@ -43,7 +44,7 @@
       const li = document.createElement("li");
       li.innerHTML = `<button class="kelime" data-id="${k.id}">
           <span class="k-no">${String(k.id).padStart(2, "0")}</span>
-          <span class="k-tr">${k.tr}</span>
+          <span class="k-tr">${k.tr}${k.ses_var ? ' <i class="k-ses" title="Sesli">🔊</i>' : ""}</span>
           <span class="k-ar" lang="ar">${k.ar_harakeli.split(" / ")[0]}</span>
         </button>`;
       ol.appendChild(li);
@@ -64,24 +65,37 @@
     $("dBaslik").textContent = k.tr;
     $("dArapca").textContent = k.ar_harakeli;
     $("dGorselYazi").textContent = k.ar_harakeli.split(" / ")[0];
-    $("dKoken").textContent = k.koken || "";
-    $("dTdk").innerHTML = (k.tdk || []).map((a) => {
-      const m = a.match(/^\(([^)]+)\)\s*(.*)$/);   // "(özlem) ..." → bkz. yönlendirmesi
-      return m ? `<li><span class="bk">${m[1]}:</span> ${m[2]}</li>` : `<li>${a}</li>`;
-    }).join("");
+    $("dSoz").textContent = k.soz || "";
+    $("sozKutu").hidden = !k.soz;
 
-    // Görsel: dosya yoksa düz lacivert zemin
-    const img = $("dGorsel"), yedek = $("dGorselYedek");
-    img.hidden = false; yedek.hidden = true;
-    img.alt = k.tr;
-    img.onerror = () => { img.hidden = true; yedek.hidden = false; };
-    img.src = k.gorsel;
+    // Görsel sırası (gorselModu "otomatik"): img/foto/<slug>.jpg → yoksa hat levhası → yoksa düz zemin.
+    // Foto gösterilirken Arapça kartuş ve Mevlânâ çerçevesi üstüne eklenir; hat levhasında zaten içindedir.
+    const img = $("dGorsel"), yedek = $("dGorselYedek"), kap = $("gorselKap");
+    const sira = { otomatik: [k.foto, k.hat], hat: [k.hat] }[CFG.gorselModu] || [k.foto, k.hat];
+    const adaylar = sira.filter(Boolean);
+    let i = 0;
+    img.hidden = false; yedek.hidden = true; img.alt = k.tr;
+    const dene = () => {
+      if (i >= adaylar.length) { img.hidden = true; yedek.hidden = false; kap.classList.remove("hat-modu"); return; }
+      const src = adaylar[i++];
+      kap.classList.toggle("hat-modu", src === k.hat);
+      img.src = src;
+    };
+    const benim = ++gorselSayac;            // hızlı geçişte eski kartın hatası yenisini etkilemesin
+    img.onerror = () => { if (benim === gorselSayac) dene(); };
+    dene();
 
     // Ses: dosya yoksa buton soluk görünür
     const btn = $("sesBtn");
-    btn.classList.remove("yok");
-    ses.src = k.ses;
-    ses.load();
+    if (k.ses_var === false) {            // tools/medya_hazirla.py işaretler; yoksa boşuna istek atma
+      btn.classList.add("yok");
+      ses.removeAttribute("src");
+    } else {
+      btn.classList.remove("yok");
+      ses.src = k.ses;
+      ses.preload = "auto";
+      ses.load();
+    }
 
     $("perde").hidden = false;
     $("detay").hidden = false;
@@ -92,6 +106,7 @@
   }
   function detayKapat() {
     sesiDurdur();
+    ledSondur();
     $("perde").hidden = true;
     $("detay").hidden = true;
     document.body.style.overflow = "";
@@ -118,7 +133,21 @@
   });
 
   // ---------- LED komutu ----------
+  let bizimLed = null;   // bu telefonun yaktığı LED (kart açıkken)
+  function ledSondur() {
+    if (bizimLed === null) return;
+    // "off:N" → ESP32 sadece N hâlâ yanıyorsa söndürür; başka ziyaretçinin ışığına dokunmaz
+    if (mqttClient && mqttClient.connected) mqttClient.publish(CFG.mqtt.topicLed, "off:" + bizimLed, { qos: 0, retain: false });
+    const l = document.querySelectorAll(".led")[bizimLed];
+    if (l) l.classList.remove("yanik");
+    bizimLed = null;
+  }
+  // Telefon kilitlenir / sekme kapanırsa ışığı söndür
+  window.addEventListener("pagehide", ledSondur);
+  document.addEventListener("visibilitychange", () => { if (document.hidden) ledSondur(); });
+
   function ledYak(indeks) {
+    bizimLed = indeks;
     if (mqttClient && mqttClient.connected) {
       mqttClient.publish(CFG.mqtt.topicLed, String(indeks), { qos: 0, retain: false });
     } else if (!testModu) {
