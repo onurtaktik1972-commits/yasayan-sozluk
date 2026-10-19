@@ -1,0 +1,787 @@
+[
+  {
+    "id": 1,
+    "led": 0,
+    "tr": "Adalet",
+    "slug": "adalet",
+    "ar": "العدالة",
+    "ar_harakeli": "العَدَالَة",
+    "gorsel": "img/adalet.svg",
+    "ses": "audio/adalet.mp3",
+    "tdk_madde": "adalet",
+    "koken": "Arapça ʿadālet",
+    "tdk": [
+      "Hak ve hukuka uygunluk, hakkı gözetme",
+      "Yasalarla sahip olunan hakların herkes tarafından kullanılmasının sağlanması; türe",
+      "Herkese kendine uygun düşeni, kendi hakkı olanı verme"
+    ]
+  },
+  {
+    "id": 2,
+    "led": 1,
+    "tr": "Affetmek",
+    "slug": "affetmek",
+    "ar": "العفو",
+    "ar_harakeli": "العَفْو",
+    "gorsel": "img/affetmek.svg",
+    "ses": "audio/affetmek.mp3",
+    "tdk_madde": "affetmek",
+    "koken": "Arapça ʿafv + Türkçe etmek",
+    "tdk": [
+      "(bağışlamak) Herhangi bir kötü davranış için ceza vermekten vazgeçmek; affetmek, affeylemek",
+      "Hoşgörü ile karşılamak; mazur görmek"
+    ]
+  },
+  {
+    "id": 3,
+    "led": 2,
+    "tr": "Akıl",
+    "slug": "akil",
+    "ar": "العقل",
+    "ar_harakeli": "العَقْل",
+    "gorsel": "img/akil.svg",
+    "ses": "audio/akil.mp3",
+    "tdk_madde": "akıl",
+    "koken": "Arapça ʿaḳl",
+    "tdk": [
+      "Düşünme, anlama ve kavrama gücü; us",
+      "Bir şeyi başka bir şeyden ayırt etme gücü"
+    ]
+  },
+  {
+    "id": 4,
+    "led": 3,
+    "tr": "Alçakgönüllülük",
+    "slug": "alcakgonulluluk",
+    "ar": "التواضع",
+    "ar_harakeli": "التَّوَاضُع",
+    "gorsel": "img/alcakgonulluluk.svg",
+    "ses": "audio/alcakgonulluluk.mp3",
+    "tdk_madde": "alçak gönüllülük",
+    "koken": "",
+    "tdk": [
+      "Alçak gönüllü olma durumu; huşu, tevazu, mahviyet, mütevazılık"
+    ]
+  },
+  {
+    "id": 5,
+    "led": 4,
+    "tr": "Anlayış",
+    "slug": "anlayis",
+    "ar": "الفهم / الإدراك",
+    "ar_harakeli": "الفَهْم / الإِدْرَاك",
+    "gorsel": "img/anlayis.svg",
+    "ses": "audio/anlayis.mp3",
+    "tdk_madde": "anlayış",
+    "koken": "",
+    "tdk": [
+      "Anlamak işi; idrak, telakki",
+      "Anlama yeteneği; feraset, izan",
+      "Hoş görme"
+    ]
+  },
+  {
+    "id": 6,
+    "led": 5,
+    "tr": "Arayış",
+    "slug": "arayis",
+    "ar": "الطلب / البحث",
+    "ar_harakeli": "الطَّلَب / البَحْث",
+    "gorsel": "img/arayis.svg",
+    "ses": "audio/arayis.mp3",
+    "tdk_madde": "arayış",
+    "koken": "",
+    "tdk": [
+      "Aramak işi"
+    ]
+  },
+  {
+    "id": 7,
+    "led": 6,
+    "tr": "Aşk",
+    "slug": "ask",
+    "ar": "العشق",
+    "ar_harakeli": "العِشْق",
+    "gorsel": "img/ask.svg",
+    "ses": "audio/ask.mp3",
+    "tdk_madde": "aşk",
+    "koken": "Arapça ʿışḳ",
+    "tdk": [
+      "Bir kimse veya bir şeye karşı duyulan çok kuvvetli sevgi ve bağlılık duygusu; sevi, amor"
+    ]
+  },
+  {
+    "id": 8,
+    "led": 7,
+    "tr": "Ateş",
+    "slug": "ates",
+    "ar": "النار",
+    "ar_harakeli": "النَّار",
+    "gorsel": "img/ates.svg",
+    "ses": "audio/ates.mp3",
+    "tdk_madde": "ateş",
+    "koken": "Farsça āteş",
+    "tdk": [
+      "Yanıcı cisimlerin tutuşmasıyla beliren ısı ve ışık; od, nâr"
+    ]
+  },
+  {
+    "id": 9,
+    "led": 8,
+    "tr": "Ayrılık",
+    "slug": "ayrilik",
+    "ar": "الفراق / الفرقة",
+    "ar_harakeli": "الفِرَاق / الفُرْقَة",
+    "gorsel": "img/ayrilik.svg",
+    "ses": "audio/ayrilik.mp3",
+    "tdk_madde": "ayrılık",
+    "koken": "",
+    "tdk": [
+      "Ayrı olma durumu",
+      "Birinden uzak düşme; firak, firkat"
+    ]
+  },
+  {
+    "id": 10,
+    "led": 9,
+    "tr": "Barış",
+    "slug": "baris",
+    "ar": "السلام / الصلح",
+    "ar_harakeli": "السَّلَام / الصُّلْح",
+    "gorsel": "img/baris.svg",
+    "ses": "audio/baris.mp3",
+    "tdk_madde": "barış",
+    "koken": "",
+    "tdk": [
+      "Savaşın bittiğinin bir antlaşmayla belirtilmesinden sonraki durum; sulh, hazar",
+      "Uyum, karşılıklı anlayış ve hoşgörü ile oluşturulan ortam"
+    ]
+  },
+  {
+    "id": 11,
+    "led": 10,
+    "tr": "Bilgelik",
+    "slug": "bilgelik",
+    "ar": "الحكمة",
+    "ar_harakeli": "الحِكْمَة",
+    "gorsel": "img/bilgelik.svg",
+    "ses": "audio/bilgelik.mp3",
+    "tdk_madde": "bilgelik",
+    "koken": "",
+    "tdk": [
+      "Bilge olma durumu ve niteliği",
+      "İlk Çağ felsefesinde kendini tanımanın bilgisi"
+    ]
+  },
+  {
+    "id": 12,
+    "led": 11,
+    "tr": "Birlik",
+    "slug": "birlik",
+    "ar": "الوحدة / التوحيد",
+    "ar_harakeli": "الوَحْدَة / التَّوْحِيد",
+    "gorsel": "img/birlik.svg",
+    "ses": "audio/birlik.mp3",
+    "tdk_madde": "birlik",
+    "koken": "",
+    "tdk": [
+      "Tek, bir olma durumu",
+      "Bir arada olma durumu"
+    ]
+  },
+  {
+    "id": 13,
+    "led": 12,
+    "tr": "Cömertlik",
+    "slug": "comertlik",
+    "ar": "السخاء / الجود",
+    "ar_harakeli": "السَّخَاء / الجُود",
+    "gorsel": "img/comertlik.svg",
+    "ses": "audio/comertlik.mp3",
+    "tdk_madde": "cömertlik",
+    "koken": "",
+    "tdk": [
+      "Cömert olma durumu; açık ellilik, ahilik, alicenaplık, bonkörlük eli açıklık, seleklik, kerem, semahat, mürüvvet"
+    ]
+  },
+  {
+    "id": 14,
+    "led": 13,
+    "tr": "Dinlemek",
+    "slug": "dinlemek",
+    "ar": "الاستماع / الإنصات",
+    "ar_harakeli": "الاِسْتِمَاع / الإِنْصَات",
+    "gorsel": "img/dinlemek.svg",
+    "ses": "audio/dinlemek.mp3",
+    "tdk_madde": "dinlemek",
+    "koken": "",
+    "tdk": [
+      "İşitmek için kulak vermek",
+      "Birinin sözünü, öğüdünü kabul edip gereğince davranmak"
+    ]
+  },
+  {
+    "id": 15,
+    "led": 14,
+    "tr": "Doğruluk",
+    "slug": "dogruluk",
+    "ar": "الصدق / السداد",
+    "ar_harakeli": "الصِّدْق / السَّدَاد",
+    "gorsel": "img/dogruluk.svg",
+    "ses": "audio/dogruluk.mp3",
+    "tdk_madde": "doğruluk",
+    "koken": "",
+    "tdk": [
+      "Doğru ve dürüst olma durumu, doğru olana yakışır davranış; dürüstlük",
+      "Düşüncenin gerçekle uyuşması, yargı ve önermelerin gerçeğe uygun olması"
+    ]
+  },
+  {
+    "id": 16,
+    "led": 15,
+    "tr": "Dostluk",
+    "slug": "dostluk",
+    "ar": "الصداقة / المودة",
+    "ar_harakeli": "الصَّدَاقَة / المَوَدَّة",
+    "gorsel": "img/dostluk.svg",
+    "ses": "audio/dostluk.mp3",
+    "tdk_madde": "dostluk",
+    "koken": "",
+    "tdk": [
+      "Dost olma durumu; mihribanlık, ülfet",
+      "Dostça davranış"
+    ]
+  },
+  {
+    "id": 17,
+    "led": 16,
+    "tr": "Dönüşüm",
+    "slug": "donusum",
+    "ar": "التحول / التغير",
+    "ar_harakeli": "التَّحَوُّل / التَّغَيُّر",
+    "gorsel": "img/donusum.svg",
+    "ses": "audio/donusum.mp3",
+    "tdk_madde": "dönüşüm",
+    "koken": "",
+    "tdk": [
+      "Bir durumdan başka bir duruma geçme; şekil değiştirme, tahavvül, transformasyon"
+    ]
+  },
+  {
+    "id": 18,
+    "led": 17,
+    "tr": "Gölge",
+    "slug": "golge",
+    "ar": "الظل",
+    "ar_harakeli": "الظِّلّ",
+    "gorsel": "img/golge.svg",
+    "ses": "audio/golge.mp3",
+    "tdk_madde": "gölge",
+    "koken": "",
+    "tdk": [
+      "Saydam olmayan bir cisim tarafından ışığın engellenmesiyle ışıklı yerde oluşan karanlık; saye",
+      "Güneş ışınlarından korunacak yer; saye"
+    ]
+  },
+  {
+    "id": 19,
+    "led": 18,
+    "tr": "Gönül",
+    "slug": "gonul",
+    "ar": "القلب / الفؤاد",
+    "ar_harakeli": "القَلْب / الفُؤَاد",
+    "gorsel": "img/gonul.svg",
+    "ses": "audio/gonul.mp3",
+    "tdk_madde": "gönül",
+    "koken": "",
+    "tdk": [
+      "Sevgi, istek, düşünüş, anma, hatır vb. duyguların kaynağı; içeri, yürek, dil (II), kalp (I)"
+    ]
+  },
+  {
+    "id": 20,
+    "led": 19,
+    "tr": "Güzellik",
+    "slug": "guzellik",
+    "ar": "الجمال",
+    "ar_harakeli": "الجَمَال",
+    "gorsel": "img/guzellik.svg",
+    "ses": "audio/guzellik.mp3",
+    "tdk_madde": "güzellik",
+    "koken": "",
+    "tdk": [
+      "Estetik bir zevk, coşku, hoşlanma duygusu uyandıran nitelik; hüsün",
+      "Ahlak ve fikrî nitelikleriyle hayranlık uyandıran şey"
+    ]
+  },
+  {
+    "id": 21,
+    "led": 20,
+    "tr": "Hakikat",
+    "slug": "hakikat",
+    "ar": "الحقيقة",
+    "ar_harakeli": "الحَقِيقَة",
+    "gorsel": "img/hakikat.svg",
+    "ses": "audio/hakikat.mp3",
+    "tdk_madde": "hakikat",
+    "koken": "Arapça ḥaḳīḳat",
+    "tdk": [
+      "(gerçek) Yalan olmayan, doğru olan şey; çın, ciddi, hakikat"
+    ]
+  },
+  {
+    "id": 22,
+    "led": 21,
+    "tr": "Hasret",
+    "slug": "hasret",
+    "ar": "الحسرة / الشوق",
+    "ar_harakeli": "الحَسْرَة / الشَّوْق",
+    "gorsel": "img/hasret.svg",
+    "ses": "audio/hasret.mp3",
+    "tdk_madde": "hasret",
+    "koken": "Arapça ḥasret",
+    "tdk": [
+      "(özlem) Bir kimseyi veya bir şeyi görme, kavuşma isteği; özlenti,  hasret, tahassür"
+    ]
+  },
+  {
+    "id": 23,
+    "led": 22,
+    "tr": "Hikmet",
+    "slug": "hikmet",
+    "ar": "الحكمة",
+    "ar_harakeli": "الحِكْمَة",
+    "gorsel": "img/hikmet.svg",
+    "ses": "audio/hikmet.mp3",
+    "tdk_madde": "hikmet",
+    "koken": "Arapça ḥikmet",
+    "tdk": [
+      "Tanrı'nın insanlar tarafından anlaşılamayan amacı",
+      "Bir şeyin oluşundaki akıl erdirilemeyen gizli sebep",
+      "Hak ve hakikate uygun, kısa ve anlamlı söz"
+    ]
+  },
+  {
+    "id": 24,
+    "led": 23,
+    "tr": "Hoşgörü",
+    "slug": "hosgoru",
+    "ar": "التسامح / التساهل",
+    "ar_harakeli": "التَّسَامُح / التَّسَاهُل",
+    "gorsel": "img/hosgoru.svg",
+    "ses": "audio/hosgoru.mp3",
+    "tdk_madde": "hoşgörü",
+    "koken": "",
+    "tdk": [
+      "Yapılan yanlış veya kötü davranışları anlayışla karşılayarak affetme, sert ve katı hükümlü olmama; müsamaha, tolerans"
+    ]
+  },
+  {
+    "id": 25,
+    "led": 24,
+    "tr": "Işık",
+    "slug": "isik",
+    "ar": "النور / الضوء",
+    "ar_harakeli": "النُّور / الضَّوْء",
+    "gorsel": "img/isik.svg",
+    "ses": "audio/isik.mp3",
+    "tdk_madde": "ışık",
+    "koken": "",
+    "tdk": [
+      "Cisimleri görmeyi, renkleri ayırt etmeyi sağlayan fiziksel enerji; çerağ, ziya, nur, şavk",
+      "Mutluluk, sevinç veya zekâdan doğan, özellikle yüzde ve gözlerde beliren parıltı"
+    ]
+  },
+  {
+    "id": 26,
+    "led": 25,
+    "tr": "İdrak",
+    "slug": "idrak",
+    "ar": "الإدراك",
+    "ar_harakeli": "الإِدْرَاك",
+    "gorsel": "img/idrak.svg",
+    "ses": "audio/idrak.mp3",
+    "tdk_madde": "idrak",
+    "koken": "Arapça idrāk",
+    "tdk": [
+      "(anlayış) Anlamak işi; idrak, telakki",
+      "Bir zamana veya olaya erişme"
+    ]
+  },
+  {
+    "id": 27,
+    "led": 26,
+    "tr": "İnsanlık",
+    "slug": "insanlik",
+    "ar": "الإنسانية",
+    "ar_harakeli": "الإِنْسَانِيَّة",
+    "gorsel": "img/insanlik.svg",
+    "ses": "audio/insanlik.mp3",
+    "tdk_madde": "insanlık",
+    "koken": "",
+    "tdk": [
+      "İnsan olma durumu; insaniyet",
+      "İnsanca davranma; insaniyet",
+      "İnsanların tümü; beşeriyet"
+    ]
+  },
+  {
+    "id": 28,
+    "led": 27,
+    "tr": "İrfan",
+    "slug": "irfan",
+    "ar": "العرفان",
+    "ar_harakeli": "العِرْفَان",
+    "gorsel": "img/irfan.svg",
+    "ses": "audio/irfan.mp3",
+    "tdk_madde": "irfan",
+    "koken": "Arapça ʿirfān",
+    "tdk": [
+      "Bilme, anlama, sezme",
+      "Gerçeğe ulaştırıcı güçlü seziş"
+    ]
+  },
+  {
+    "id": 29,
+    "led": 28,
+    "tr": "İyilik",
+    "slug": "iyilik",
+    "ar": "الإحسان / الخير",
+    "ar_harakeli": "الإِحْسَان / الخَيْر",
+    "gorsel": "img/iyilik.svg",
+    "ses": "audio/iyilik.mp3",
+    "tdk_madde": "iyilik",
+    "koken": "",
+    "tdk": [
+      "İyi olma durumu; salah",
+      "Karşılık beklenilmeden yapılan yardım; kerem, ihsan"
+    ]
+  },
+  {
+    "id": 30,
+    "led": 29,
+    "tr": "Kalp",
+    "slug": "kalp",
+    "ar": "القلب",
+    "ar_harakeli": "القَلْب",
+    "gorsel": "img/kalp.svg",
+    "ses": "audio/kalp.mp3",
+    "tdk_madde": "kalp",
+    "koken": "Arapça ḳalb",
+    "tdk": [
+      "Göğüs orta boşluğunda, iki akciğer arasında, vücudun her yanından gelen kirli kanı akciğerlere ve oradan gelen temiz kanı da vücuda dağıtan organ; yürek",
+      "(gönül) Sevgi, istek, düşünüş, anma, hatır vb. duyguların kaynağı; içeri, yürek, dil (II), kalp (I)"
+    ]
+  },
+  {
+    "id": 31,
+    "led": 30,
+    "tr": "Kanaat",
+    "slug": "kanaat",
+    "ar": "القناعة",
+    "ar_harakeli": "القَنَاعَة",
+    "gorsel": "img/kanaat.svg",
+    "ses": "audio/kanaat.mp3",
+    "tdk_madde": "kanaat",
+    "koken": "Arapça ḳanāʿat",
+    "tdk": [
+      "Elindekinden hoşnut olma durumu, yeter bulma, fazlasını istememe"
+    ]
+  },
+  {
+    "id": 32,
+    "led": 31,
+    "tr": "Kardeşlik",
+    "slug": "kardeslik",
+    "ar": "الأخوة",
+    "ar_harakeli": "الأُخُوَّة",
+    "gorsel": "img/kardeslik.svg",
+    "ses": "audio/kardeslik.mp3",
+    "tdk_madde": "kardeşlik",
+    "koken": "",
+    "tdk": [
+      "Kardeş olma durumu; karındaşlık, uhuvvet",
+      "Birlik ve beraberlik"
+    ]
+  },
+  {
+    "id": 33,
+    "led": 32,
+    "tr": "Kavuşma",
+    "slug": "kavusma",
+    "ar": "الوصل / الوصال",
+    "ar_harakeli": "الوَصْل / الوِصَال",
+    "gorsel": "img/kavusma.svg",
+    "ses": "audio/kavusma.mp3",
+    "tdk_madde": "kavuşma",
+    "koken": "",
+    "tdk": [
+      "Kavuşmak işi; muvasala, telaki, vasl, visal"
+    ]
+  },
+  {
+    "id": 34,
+    "led": 33,
+    "tr": "Marifet",
+    "slug": "marifet",
+    "ar": "المعرفة",
+    "ar_harakeli": "المَعْرِفَة",
+    "gorsel": "img/marifet.svg",
+    "ses": "audio/marifet.mp3",
+    "tdk_madde": "marifet",
+    "koken": "Arapça maʿrifet",
+    "tdk": [
+      "Herhangi bir işi yapmada ustalık",
+      "Gerçeği bilme"
+    ]
+  },
+  {
+    "id": 35,
+    "led": 34,
+    "tr": "Merhamet",
+    "slug": "merhamet",
+    "ar": "الرحمة",
+    "ar_harakeli": "الرَّحْمَة",
+    "gorsel": "img/merhamet.svg",
+    "ses": "audio/merhamet.mp3",
+    "tdk_madde": "merhamet",
+    "koken": "Arapça merḥamet",
+    "tdk": [
+      "Bir kimsenin veya bir başka canlının karşılaştığı kötü durumdan dolayı duyulan üzüntü, acıma"
+    ]
+  },
+  {
+    "id": 36,
+    "led": 35,
+    "tr": "Nefes",
+    "slug": "nefes",
+    "ar": "النفس",
+    "ar_harakeli": "النَّفَس",
+    "gorsel": "img/nefes.svg",
+    "ses": "audio/nefes.mp3",
+    "tdk_madde": "nefes",
+    "koken": "Arapça nefes",
+    "tdk": [
+      "(soluk) Akciğerlere çekilen, akciğerlerden atılan hava; dem (I), nefes (I)",
+      "Canlılık, hayat belirtisi"
+    ]
+  },
+  {
+    "id": 37,
+    "led": 36,
+    "tr": "Ney",
+    "slug": "ney",
+    "ar": "الناي",
+    "ar_harakeli": "النَّاي",
+    "gorsel": "img/ney.svg",
+    "ses": "audio/ney.mp3",
+    "tdk_madde": "ney",
+    "koken": "Farsça ney",
+    "tdk": [
+      "Klasik Türk müziğinde ve özellikle tekke müziğinde yer alan, kaval biçiminde, yanık sesli, kamıştan yapılmış, üflemeli bir çalgı"
+    ]
+  },
+  {
+    "id": 38,
+    "led": 37,
+    "tr": "Niyet",
+    "slug": "niyet",
+    "ar": "النية",
+    "ar_harakeli": "النِّيَّة",
+    "gorsel": "img/niyet.svg",
+    "ses": "audio/niyet.mp3",
+    "tdk_madde": "niyet",
+    "koken": "Arapça niyyet",
+    "tdk": [
+      "Bir şeyi yapmaya önceden karar verme; düşünce, endişe"
+    ]
+  },
+  {
+    "id": 39,
+    "led": 38,
+    "tr": "Olgunluk",
+    "slug": "olgunluk",
+    "ar": "النضج / الكمال",
+    "ar_harakeli": "النُّضْج / الكَمَال",
+    "gorsel": "img/olgunluk.svg",
+    "ses": "audio/olgunluk.mp3",
+    "tdk_madde": "olgunluk",
+    "koken": "",
+    "tdk": [
+      "İnsanların bilgi, görgü ve hoşgörü bakımından gereği kadar gelişmiş olma durumu; kâmillik, tamlık, yetkinlik, kemal"
+    ]
+  },
+  {
+    "id": 40,
+    "led": 39,
+    "tr": "Özlem",
+    "slug": "ozlem",
+    "ar": "الشوق / الحنين",
+    "ar_harakeli": "الشَّوْق / الحَنِين",
+    "gorsel": "img/ozlem.svg",
+    "ses": "audio/ozlem.mp3",
+    "tdk_madde": "özlem",
+    "koken": "",
+    "tdk": [
+      "Bir kimseyi veya bir şeyi görme, kavuşma isteği; özlenti,  hasret, tahassür"
+    ]
+  },
+  {
+    "id": 41,
+    "led": 40,
+    "tr": "Ruh",
+    "slug": "ruh",
+    "ar": "الروح",
+    "ar_harakeli": "الرُّوح",
+    "gorsel": "img/ruh.svg",
+    "ses": "audio/ruh.mp3",
+    "tdk_madde": "ruh",
+    "koken": "Arapça rūḥ",
+    "tdk": [
+      "Allah tarafından insan bedenine üflenen, ölümden sonra da varlığı devam eden ve mahiyeti tam olarak bilinemeyen ilahi ve manevi cevher; tin (I)",
+      "(can) İnsan ve hayvanlarda yaşamayı sağlayan ve ölümle vücuttan ayrılan madde dışı varlık; can kuşu, ruh"
+    ]
+  },
+  {
+    "id": 42,
+    "led": 41,
+    "tr": "Sabır",
+    "slug": "sabir",
+    "ar": "الصبر",
+    "ar_harakeli": "الصَّبْر",
+    "gorsel": "img/sabir.svg",
+    "ses": "audio/sabir.mp3",
+    "tdk_madde": "sabır",
+    "koken": "Arapça ṣabr",
+    "tdk": [
+      "Acı, yoksulluk, haksızlık vb. üzücü durumlar karşısında ses çıkarmadan onların geçmesini bekleme erdemi; dayanç, çıdam",
+      "Olacak veya gelecek bir şeyi telaş göstermeden bekleme"
+    ]
+  },
+  {
+    "id": 43,
+    "led": 42,
+    "tr": "Sadakat",
+    "slug": "sadakat",
+    "ar": "الوفاء / الصدق",
+    "ar_harakeli": "الوَفَاء / الصِّدْق",
+    "gorsel": "img/sadakat.svg",
+    "ses": "audio/sadakat.mp3",
+    "tdk_madde": "sadakat",
+    "koken": "Arapça ṣadāḳat",
+    "tdk": [
+      "İçten bağlılık",
+      "Sağlam, güçlü dostluk"
+    ]
+  },
+  {
+    "id": 44,
+    "led": 43,
+    "tr": "Samimiyet",
+    "slug": "samimiyet",
+    "ar": "الإخلاص",
+    "ar_harakeli": "الإِخْلَاص",
+    "gorsel": "img/samimiyet.svg",
+    "ses": "audio/samimiyet.mp3",
+    "tdk_madde": "samimiyet",
+    "koken": "Arapça ṣamīmiyyet",
+    "tdk": [
+      "(içtenlik) İçten olma durumu, içten davranış; samimilik, samimiyet",
+      "(açık yüreklilik) Açık yürekli olma durumu; samimiyet, açık kalplilik"
+    ]
+  },
+  {
+    "id": 45,
+    "led": 44,
+    "tr": "Sır",
+    "slug": "sir",
+    "ar": "السر",
+    "ar_harakeli": "السِّرّ",
+    "gorsel": "img/sir.svg",
+    "ses": "audio/sir.mp3",
+    "tdk_madde": "sır",
+    "koken": "Arapça sirr",
+    "tdk": [
+      "Varlığı veya bazı yönleri açığa vurulmak istenmeyen, gizli kalan, gizli tutulan şey",
+      "Aklın erişemediği, açıklanamayan veya çözülemeyen şey; giz (I), gizem, raz",
+      "Bir işin, bir şeyin dikkat, yetenek, deneyim ve sezgi yardımıyla kavranabilen en zor, en ince yanı"
+    ]
+  },
+  {
+    "id": 46,
+    "led": 45,
+    "tr": "Şükür",
+    "slug": "sukur",
+    "ar": "الشكر",
+    "ar_harakeli": "الشُّكْر",
+    "gorsel": "img/sukur.svg",
+    "ses": "audio/sukur.mp3",
+    "tdk_madde": "şükür",
+    "koken": "Arapça şukr",
+    "tdk": [
+      "Allah’a duyulan minneti dile getirme",
+      "Mutlu bir olay veya durumdan, yapılan bir iyilikten duyulan hoşnutluğu bildirme"
+    ]
+  },
+  {
+    "id": 47,
+    "led": 46,
+    "tr": "Tevazu",
+    "slug": "tevazu",
+    "ar": "التواضع",
+    "ar_harakeli": "التَّوَاضُع",
+    "gorsel": "img/tevazu.svg",
+    "ses": "audio/tevazu.mp3",
+    "tdk_madde": "tevazu",
+    "koken": "Arapça tevāżuʿ",
+    "tdk": [
+      "(alçak gönüllülük) Alçak gönüllü olma durumu; huşu, tevazu, mahviyet, mütevazılık"
+    ]
+  },
+  {
+    "id": 48,
+    "led": 47,
+    "tr": "Vefa",
+    "slug": "vefa",
+    "ar": "الوفاء",
+    "ar_harakeli": "الوَفَاء",
+    "gorsel": "img/vefa.svg",
+    "ses": "audio/vefa.mp3",
+    "tdk_madde": "vefa",
+    "koken": "Arapça vefāʾ",
+    "tdk": [
+      "Sevgiyi sürdürme, sevgi, dostluk bağlılığı"
+    ]
+  },
+  {
+    "id": 49,
+    "led": 48,
+    "tr": "Yol",
+    "slug": "yol",
+    "ar": "الطريق / السبيل",
+    "ar_harakeli": "الطَّرِيق / السَّبِيل",
+    "gorsel": "img/yol.svg",
+    "ses": "audio/yol.mp3",
+    "tdk_madde": "yol",
+    "koken": "",
+    "tdk": [
+      "Karada, havada, suda bir yerden bir yere gitmek için aşılan uzaklık; sırat, tarik",
+      "Karada insanların ve hayvanların geçmesi için açılan veya kendi kendine oluşmuş, yürümeye uygun yer"
+    ]
+  },
+  {
+    "id": 50,
+    "led": 49,
+    "tr": "Yolculuk",
+    "slug": "yolculuk",
+    "ar": "السفر / الرحلة",
+    "ar_harakeli": "السَّفَر / الرِّحْلَة",
+    "gorsel": "img/yolculuk.svg",
+    "ses": "audio/yolculuk.mp3",
+    "tdk_madde": "yolculuk",
+    "koken": "",
+    "tdk": [
+      "Ülkeden ülkeye veya bir ülke içinde bir yerden bir yere gidiş veya geliş; yol, seyahat, sefer"
+    ]
+  }
+]

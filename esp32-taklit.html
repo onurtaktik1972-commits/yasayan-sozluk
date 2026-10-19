@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESP32 Taklitçisi — Yaşayan Sözlük</title>
+<style>
+  :root{--z:#0e0c0a;--k:#1a1612;--y:#d9cbb2;--s:#8a7d69;--a:#ffb347}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--z);color:var(--y);font:14px/1.45 Inter,system-ui,sans-serif;padding:20px 16px 40px}
+  h1{font-size:20px;margin:0 0 4px}
+  p.alt{margin:0 0 16px;color:var(--s)}
+  .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:16px}
+  .rozet{display:inline-flex;align-items:center;gap:6px;background:var(--k);padding:6px 12px;border-radius:99px}
+  .rozet i{width:9px;height:9px;border-radius:50%;background:#777}
+  .on i{background:#5fd07a;box-shadow:0 0 8px #5fd07a}.off i{background:#d9694f}
+  button{background:#2b241c;color:var(--y);border:1px solid #3d342a;border-radius:8px;padding:7px 12px;font:inherit;cursor:pointer}
+  button:hover{background:#3a3026}
+  code{background:var(--k);padding:2px 6px;border-radius:5px;color:#e9cf9a}
+  .panel{display:grid;grid-template-columns:repeat(auto-fill,minmax(112px,1fr));gap:8px;background:#07060a;padding:14px;border-radius:14px;border:1px solid #2a241d}
+  .hucre{display:flex;align-items:center;gap:8px;padding:8px;border-radius:8px;background:#110f0c;transition:background .4s}
+  .hucre.yanik{background:#2a1c0c}
+  .led{flex:none;width:16px;height:16px;border-radius:50%;background:#2a241d;transition:background .5s,box-shadow .5s}
+  .yanik .led{background:var(--renk,var(--a));box-shadow:0 0 8px var(--renk,var(--a)),0 0 18px var(--renk,var(--a))}
+  .hucre small{color:var(--s);font-variant-numeric:tabular-nums;width:18px}
+  .hucre span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .yanik span{color:#fff}
+  #log{margin-top:16px;background:#07060a;border:1px solid #2a241d;border-radius:12px;padding:10px 12px;height:180px;overflow:auto;
+    font:12px/1.6 ui-monospace,Menlo,Consolas,monospace;color:#b9ab93}
+  #log b{color:#e9cf9a;font-weight:500}
+</style>
+</head>
+<body>
+  <h1>ESP32 Taklitçisi</h1>
+  <p class="alt">Bu sayfa, gerçek ESP32'nin yaptığının aynısını yapar: broker'a bağlanır, <code id="tLed"></code> konusunu dinler, LED'i yakar,
+    <code id="tDurum"></code> konusuna "online" yazar. Kapanınca broker "offline" yayınlar. Donanım gelene kadar sergi panosu yerine bunu açık tutun.</p>
+
+  <div class="bar">
+    <span class="rozet" id="rozet"><i></i><span id="durum">Bağlanıyor…</span></span>
+    <button id="baglanti">Bağlantıyı kes</button>
+    <button id="tumu">Tüm LED'leri test et</button>
+    <button id="sondur">Söndür</button>
+  </div>
+
+  <div class="panel" id="panel"></div>
+  <div id="log"></div>
+
+<script src="https://unpkg.com/mqtt@5.10.1/dist/mqtt.min.js"></script>
+<script src="config.js"></script>
+<script>
+(() => {
+  const CFG = Object.assign({ ledSayisi: 50, ledSuresiSn: 10 }, window.SOZLUK_CONFIG);
+  const M = CFG.mqtt;
+  const $ = (id) => document.getElementById(id);
+  $("tLed").textContent = M.topicLed; $("tDurum").textContent = M.topicDurum;
+  let hucreler = [], zaman, client, sonKomut = 0;
+
+  const log = (t) => {
+    const s = new Date().toLocaleTimeString("tr-TR");
+    $("log").insertAdjacentHTML("afterbegin", `<div><b>${s}</b> ${t}</div>`);
+  };
+  const durum = (cls, t) => { $("rozet").className = "rozet " + cls; $("durum").textContent = t; };
+
+  function sondur() { hucreler.forEach((h) => h.classList.remove("yanik")); }
+  function yak(i, renk) {
+    sondur();
+    const h = hucreler[i]; if (!h) return;
+    h.style.setProperty("--renk", renk || "");
+    h.classList.add("yanik");
+    clearTimeout(zaman);
+    zaman = setTimeout(sondur, CFG.ledSuresiSn * 1000);
+  }
+
+  // ESP32 firmware'deki doğrulama kurallarının aynısı
+  function komutIsle(metin) {
+    const t = metin.trim().toLowerCase();
+    if (t === "off" || t === "-1") { sondur(); log("söndür komutu"); return; }
+    if (!/^\d{1,2}$/.test(t)) { log(`⚠ geçersiz komut reddedildi: "${metin}"`); return; }
+    const i = +t;
+    if (i < 0 || i >= CFG.ledSayisi) { log(`⚠ aralık dışı: ${i}`); return; }
+    const simdi = Date.now();
+    if (simdi - sonKomut < 150) { log(`⚠ çok sık komut, atlandı: ${i}`); return; }
+    sonKomut = simdi;
+    yak(i);
+    log(`LED ${i} → <b>${hucreler[i].dataset.ad}</b>`);
+  }
+
+  function baglan() {
+    durum("", "Bağlanıyor…");
+    client = mqtt.connect(M.url, {
+      username: M.username || undefined, password: M.password || undefined,
+      clientId: "esp32-taklit-" + Math.random().toString(16).slice(2, 8),
+      will: { topic: M.topicDurum, payload: "offline", qos: 1, retain: true },
+      reconnectPeriod: 3000, clean: true
+    });
+    client.on("connect", () => {
+      durum("on", "Broker'a bağlı");
+      client.publish(M.topicDurum, "online", { qos: 1, retain: true });
+      client.subscribe(M.topicLed, { qos: 0 });
+      log("bağlandı, dinleniyor: " + M.topicLed);
+    });
+    client.on("message", (_t, m) => komutIsle(m.toString()));
+    client.on("offline", () => durum("off", "Bağlantı yok"));
+    client.on("error", (e) => { durum("off", "Hata"); log("hata: " + e.message); });
+  }
+
+  $("baglanti").onclick = () => {
+    if (client && client.connected) {
+      client.publish(M.topicDurum, "offline", { qos: 1, retain: true }, () => client.end());
+      durum("off", "Bağlantı kesildi"); $("baglanti").textContent = "Bağlan"; log("bağlantı elle kesildi");
+    } else { baglan(); $("baglanti").textContent = "Bağlantıyı kes"; }
+  };
+  $("sondur").onclick = sondur;
+  $("tumu").onclick = () => {
+    let i = 0; const t = setInterval(() => { yak(i, "#7ec8ff"); if (++i >= CFG.ledSayisi) { clearInterval(t); setTimeout(sondur, 400); } }, 70);
+  };
+  window.addEventListener("beforeunload", () => { try { client.publish(M.topicDurum, "offline", { retain: true }); } catch (_) {} });
+
+  fetch("sozluk.json").then((r) => r.json()).then((d) => {
+    d.forEach((k) => {
+      const h = document.createElement("div");
+      h.className = "hucre"; h.dataset.ad = k.tr;
+      h.innerHTML = `<small>${k.led}</small><div class="led"></div><span>${k.tr}</span>`;
+      $("panel").appendChild(h);
+    });
+    hucreler = [...document.querySelectorAll(".hucre")];
+    if (!M.url) { durum("off", "config.js'te MQTT adresi yok"); return; }
+    baglan();
+  });
+})();
+</script>
+</body>
+</html>
