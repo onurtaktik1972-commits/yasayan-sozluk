@@ -9,7 +9,7 @@
     "soz": "Adalet nedir? Ağaçları sulamak… Zulüm nedir? Dikenlere su vermek…",
     "foto": "https://images.unsplash.com/photo-1587740896339-96a76170508d?w=1200&h=900&fit=crop&crop=top&q=80&fm=jpg",
     "ses": "audio/adalet.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "soz": "Affetmek bir zayıflık değil, kendine verdiğin bir armağandır.",
     "foto": "https://images.unsplash.com/photo-1564020435666-f67ed5319a32?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/affetmek.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "soz": "Akıl bir kuzu, nefis bir kurt, iman ise çobandır.",
     "foto": "https://images.unsplash.com/photo-1760570836868-28b088bd4324?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/akil.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
     "soz": "Alçakgönüllülük benim asamdır; herkesin ayağının tozu olmak ise kılıcımdır.",
     "foto": "https://images.unsplash.com/photo-1650387106190-c6a9013f3fc8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/alcakgonulluluk.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
     "soz": "Anlayış; kibirli bir bilgiçlik ile değil, alçakgönüllülük ile ortaya çıkar.",
     "foto": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/anlayis.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
     "soz": "Aşk adayıştır, arayış değil! Sen adanmışsan ve yanmışsan bu uğurda, aşk seni bulmaya gelir.",
     "foto": "https://images.unsplash.com/photo-1555488205-d5e67846cf40?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/arayis.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "soz": "Aşk; sandığın kadar değil, yandığın kadardır.",
     "foto": "https://images.unsplash.com/photo-1561212856-44e9bae482aa?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ask.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
     "soz": "Âşıkların gönüllerinin yanışıyla gözyaşları olmasaydı, dünyada su da olmazdı ateş de.",
     "foto": "https://images.unsplash.com/photo-1507048947301-7afc2aca0edc?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ates.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 9,
@@ -105,7 +105,7 @@
     "soz": "Dinle neyden, bak neler söyler durur; dertlerinden, ayrılıktan dem vurur.",
     "foto": "https://images.unsplash.com/photo-1667331634686-313ec875d91e?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ayrilik.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 10,
@@ -117,7 +117,7 @@
     "soz": "Barış, düşmanlığın son bulduğu değil, sevginin ve anlayışın yeşerdiği bir bahçedir.",
     "foto": "https://images.unsplash.com/photo-1507126882445-434b04530d1a?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/baris.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 11,
@@ -129,7 +129,7 @@
     "soz": "Bilgelik konuştuğunda sessiz ol ve dinle!",
     "foto": "https://images.unsplash.com/photo-1782906187500-b57299d96aa8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/bilgelik.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 12,
@@ -141,7 +141,7 @@
     "soz": "Birlik bilgide değil, görmededir.",
     "foto": "https://images.unsplash.com/photo-1763747554376-74d21bad7dbd?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/birlik.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 13,
@@ -153,7 +153,7 @@
     "soz": "Cömertlik ve yardım etmede akarsu gibi ol.",
     "foto": "https://images.unsplash.com/photo-1506618689200-beb1d7f86e33?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/comertlik.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 14,
@@ -165,7 +165,7 @@
     "soz": "Başkasının ruhunu dinlemek, bir insanın bir başkası için yaptığı en büyük hizmet olabilir.",
     "foto": "https://images.unsplash.com/photo-1684166251886-5c4fbb1d3c5b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/dinlemek.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 15,
@@ -177,7 +177,7 @@
     "soz": "Cümleler doğrudur sen doğru isen, doğruluk bulunmaz sen eğri isen.",
     "foto": "https://images.unsplash.com/photo-1756365951512-b15739bfbf4c?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/dogruluk.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 16,
@@ -189,7 +189,7 @@
     "soz": "Çelik ve demir kırılır ama sağlam dostluk ne solar ne de kırılır.",
     "foto": "https://images.unsplash.com/photo-1672577060303-216025d3536f?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/dostluk.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 17,
@@ -201,7 +201,7 @@
     "soz": "Gerçek dönüşüm yalnızlıkla başlar.",
     "foto": "https://images.unsplash.com/photo-1566232005979-201e12892389?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/donusum.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 18,
@@ -213,7 +213,7 @@
     "soz": "Duvar uzun gölge salsa da, o gölge yine döner aslına.",
     "foto": "https://images.unsplash.com/photo-1663790682196-926e224c50a7?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/golge.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 19,
@@ -225,7 +225,7 @@
     "soz": "Gönül Çalab'ın tahtı, Çalap gönüle baktı; iki cihan bedbahtı, kim gönül yıkar ise.",
     "foto": "https://images.unsplash.com/photo-1530906622963-8a60586a49c7?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/gonul.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 20,
@@ -237,7 +237,7 @@
     "soz": "Kimde bir güzellik varsa, bilsin ki ödünçtür.",
     "foto": "https://images.unsplash.com/photo-1775591649052-bd0778172751?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/guzellik.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 21,
@@ -249,7 +249,7 @@
     "soz": "Hakikat bir aynaydı; yere düştü ve parçalandı. Herkes bir parçasını aldı, baktı ve hakikati bulduğunu sandı.",
     "foto": "https://images.unsplash.com/photo-1759930018644-ddf215c741f1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hakikat.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 22,
@@ -261,7 +261,7 @@
     "soz": "Parmak kaleme hasret, kalem kâğıda hasret; kâğıt kelâma hasret, kelâm ilhama hasret.",
     "foto": "https://images.unsplash.com/photo-1511634829096-045a111727eb?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hasret.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 23,
@@ -273,7 +273,7 @@
     "soz": "Hikmet, bir feyiz ağacıdır ki kökü kalpte, yemişleri ağızdadır.",
     "foto": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hikmet.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 24,
@@ -285,7 +285,7 @@
     "soz": "Hoşgörülükte deniz gibi ol.",
     "foto": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hosgoru.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 25,
@@ -297,7 +297,7 @@
     "soz": "Geceyi seyrede seyrede öğrendim ki ışık insanın içinde yanmıyorsa yüzüne vurmuyor.",
     "foto": "https://images.unsplash.com/photo-1569924259120-22d9307489cf?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/isik.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 26,
@@ -309,7 +309,7 @@
     "soz": "Akıl ilmin temeli, idrakin sebebidir.",
     "foto": "https://images.unsplash.com/photo-1490682143684-14369e18dce8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/idrak.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 27,
@@ -321,7 +321,7 @@
     "soz": "İnsanlık, içimizdeki merhametin dışa vurulmuş hâlidir.",
     "foto": "https://images.unsplash.com/photo-1542323228-002ac256e7b8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/insanlik.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 28,
@@ -333,7 +333,7 @@
     "soz": "Akıllı ve irfan sahibi kimse, meyveli ağaç gibi mütevazı olur.",
     "foto": "https://images.unsplash.com/photo-1660568704661-8f11a707784b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/irfan.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 29,
@@ -345,7 +345,7 @@
     "soz": "Gerçek sevgi, iyilik gördüğünde artmayan, kötülük gördüğünde eksilmeyendir.",
     "foto": "https://images.unsplash.com/photo-1505455184862-554165e5f6ba?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/iyilik.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 30,
@@ -357,7 +357,7 @@
     "soz": "Kalp denizdir, dil de kıyı; denizde ne varsa kıyıya o vurur.",
     "foto": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kalp.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 31,
@@ -369,7 +369,7 @@
     "soz": "Kanaat, bitmez tükenmez bir hazinedir.",
     "foto": "https://images.unsplash.com/photo-1535395155851-2088a2a94701?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kanaat.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 32,
@@ -381,7 +381,7 @@
     "soz": "Kardeşlik öyle bir denizdir ki dibi bulunmaz, öyle bir sırdır ki her gönül kaldırmaz.",
     "foto": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kardeslik.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 33,
@@ -393,7 +393,7 @@
     "soz": "Bu hâl sana batmak, kaybolmak gibi görünse de aslında doğmaktır, yeniden hayata kavuşmaktır.",
     "foto": "https://images.unsplash.com/photo-1559769732-3a943df124b0?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kavusma.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 34,
@@ -405,7 +405,7 @@
     "soz": "Kusur bulmak için bakma birine, kusuru örtmeyi marifet edin kendine.",
     "foto": "https://images.unsplash.com/photo-1581084121296-8b65c4f80452?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/marifet.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 35,
@@ -417,7 +417,7 @@
     "soz": "Şefkat ve merhamette güneş gibi ol.",
     "foto": "https://images.unsplash.com/photo-1531917517452-0068c593a675?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/merhamet.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 36,
@@ -429,7 +429,7 @@
     "soz": "Nefes sese dönüşür, ses hikâyeye, hikâye hakikate varır.",
     "foto": "https://images.unsplash.com/photo-1696279976107-4d80eb0a7d82?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/nefes.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 37,
@@ -441,7 +441,7 @@
     "soz": "Dinle bu ney nasıl şikâyet etmede, ayrılıkları nasıl hikâye etmede.",
     "foto": "https://images.unsplash.com/photo-1645772647876-76f184a402a1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ney.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 38,
@@ -453,7 +453,7 @@
     "soz": "Allah'ın kuluna yardımı, kulun niyeti kadardır.",
     "foto": "https://images.unsplash.com/photo-1707129901265-c5bfee67a60b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/niyet.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 39,
@@ -465,7 +465,7 @@
     "soz": "Olgunluk yaşla değil, sorumluluk duygusu ve yaşanan deneyimlerle gelir.",
     "foto": "https://images.unsplash.com/photo-1763323881052-e83de577e7cd?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/olgunluk.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 40,
@@ -477,7 +477,7 @@
     "soz": "İnanan bilir ki özlemlerin sonu vuslat, hüzünlerin sonu tebessümdür.",
     "foto": "https://images.unsplash.com/photo-1599615811451-4ceffd586d65?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ozlem.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 41,
@@ -489,7 +489,7 @@
     "soz": "Beden yemekle, ruh ise yedirmekle doyar.",
     "foto": "https://images.unsplash.com/photo-1707517009384-c58605e7cdd9?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ruh.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 42,
@@ -501,7 +501,7 @@
     "soz": "Sabır nedir? Dikene bakıp gülü, geceye bakıp gündüzü tahayyül edebilmektir.",
     "foto": "https://images.unsplash.com/photo-1556010656-e60700d4c0d5?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sabir.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 43,
@@ -513,7 +513,7 @@
     "soz": "Sadakat; gülü koparmak değil, koklamaktır.",
     "foto": "https://images.unsplash.com/photo-1600364906358-46c2d712a646?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sadakat.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 44,
@@ -525,7 +525,7 @@
     "soz": "Samimiyet, dilimiz ile kalbimizin bir olmasıdır.",
     "foto": "https://images.unsplash.com/photo-1620416265040-cc777cad1883?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/samimiyet.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 45,
@@ -537,7 +537,7 @@
     "soz": "Sır gibi seversen muradın gerçekleşir; çünkü tohum toprağa gizlenirse yeşerir.",
     "foto": "https://images.unsplash.com/photo-1590280986931-d675a2cf9b2e?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sir.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 46,
@@ -549,7 +549,7 @@
     "soz": "Şükür; nimeti değil, vereni görmektir.",
     "foto": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sukur.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 47,
@@ -561,7 +561,7 @@
     "soz": "Tevazu ve alçak gönüllülükte toprak gibi ol.",
     "foto": "https://images.unsplash.com/photo-1642952273588-ed6fa28870ac?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/tevazu.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 48,
@@ -573,7 +573,7 @@
     "soz": "Vefa, dost ikliminde yaşayan güllerdendir.",
     "foto": "https://images.unsplash.com/photo-1589878607495-6f7c03973ca0?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/vefa.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 49,
@@ -585,7 +585,7 @@
     "soz": "Gönlü açık olanın yolu da açık olur.",
     "foto": "https://images.unsplash.com/photo-1542169096-d626c9d082ab?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/yol.mp3",
-    "ses_var": false
+    "ses_var": true
   },
   {
     "id": 50,
@@ -597,6 +597,6 @@
     "soz": "Yolculuk bizi kendimize geri getirir.",
     "foto": "https://images.unsplash.com/photo-1777929746539-f8b2c6ac0801?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/yolculuk.mp3",
-    "ses_var": false
+    "ses_var": true
   }
 ]
