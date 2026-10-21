@@ -11,6 +11,9 @@
 //  url "" yapılırsa uygulama TEST MODUNDA çalışır (sanal LED şeridi).
 // =====================================================================
 window.SOZLUK_CONFIG = {
+  // Işık (LED) sistemi: false = kapalı. "Işık bağlı" yazısı görünmez, MQTT bağlantısı kurulmaz.
+  // Tekrar açmak için true yapın ve index.html'e mqtt.min.js betiğini geri ekleyin.
+  isikSistemi: false,
   mqtt: {
     url: "wss://broker.hivemq.com:8884/mqtt",
     username: "",

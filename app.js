@@ -7,6 +7,7 @@
   const CFG = Object.assign({ ledSayisi: 50, ledSuresiSn: 60, sanalSerit: "auto", gorselModu: "otomatik" }, window.SOZLUK_CONFIG || {});
   const $ = (id) => document.getElementById(id);
   const debug = new URLSearchParams(location.search).has("debug");
+  const ISIK = CFG.isikSistemi !== false;   // false → LED/MQTT tamamen devre dışı
 
   let sozluk = [];
   let secili = null;
@@ -135,7 +136,7 @@
   // ---------- LED komutu ----------
   let bizimLed = null;   // bu telefonun yaktığı LED (kart açıkken)
   function ledSondur() {
-    if (bizimLed === null) return;
+    if (!ISIK || bizimLed === null) return;
     // "off:N" → ESP32 sadece N hâlâ yanıyorsa söndürür; başka ziyaretçinin ışığına dokunmaz
     if (mqttClient && mqttClient.connected) mqttClient.publish(CFG.mqtt.topicLed, "off:" + bizimLed, { qos: 0, retain: false });
     const l = document.querySelectorAll(".led")[bizimLed];
@@ -147,6 +148,7 @@
   document.addEventListener("visibilitychange", () => { if (document.hidden) ledSondur(); });
 
   function ledYak(indeks) {
+    if (!ISIK) return;
     bizimLed = indeks;
     if (mqttClient && mqttClient.connected) {
       mqttClient.publish(CFG.mqtt.topicLed, String(indeks), { qos: 0, retain: false });
@@ -222,8 +224,7 @@
     .then((veri) => {
       sozluk = veri;
       listeyiCiz();
-      seritKur();
-      mqttBaglan();
+      if (ISIK) { $("durum").hidden = false; seritKur(); mqttBaglan(); }
       // Doğrudan kelime bağlantısı: ...#adalet  (LED yakmaz, sadece kartı açar)
       const h = decodeURIComponent(location.hash.slice(1));
       const k = h && sozluk.find((x) => x.slug === h);
