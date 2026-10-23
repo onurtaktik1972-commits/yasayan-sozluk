@@ -66,6 +66,8 @@
     $("dBaslik").textContent = k.tr;
     $("dArapca").textContent = k.ar_harakeli;
     $("dGorselYazi").textContent = k.ar_harakeli.split(" / ")[0];
+    $("dTanim").textContent = k.tanim || "";
+    $("tanimKutu").hidden = !k.tanim;
     $("dSoz").textContent = k.soz || "";
     $("sozKutu").hidden = !k.soz;
 
