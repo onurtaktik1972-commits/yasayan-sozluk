@@ -18,7 +18,7 @@
     "slug": "affetmek",
     "ar": "العفو",
     "ar_harakeli": "العَفْو",
-    "soz": "Affetmek bir zayıflık değil, kendine verdiğin bir armağandır.",
+    "soz": "Bağışlamak.",
     "foto": "https://images.unsplash.com/photo-1564020435666-f67ed5319a32?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/affetmek.mp3",
     "ses_var": true
@@ -30,7 +30,7 @@
     "slug": "akil",
     "ar": "العقل",
     "ar_harakeli": "العَقْل",
-    "soz": "Akıl bir kuzu, nefis bir kurt, iman ise çobandır.",
+    "soz": "Düşünme, anlama ve kavrama gücü.",
     "foto": "https://images.unsplash.com/photo-1760570836868-28b088bd4324?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/akil.mp3",
     "ses_var": true
@@ -42,7 +42,7 @@
     "slug": "alcakgonulluluk",
     "ar": "التواضع",
     "ar_harakeli": "التَّوَاضُع",
-    "soz": "Alçakgönüllülük benim asamdır; herkesin ayağının tozu olmak ise kılıcımdır.",
+    "soz": "Tevazu, mütevazı.",
     "foto": "https://images.unsplash.com/photo-1650387106190-c6a9013f3fc8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/alcakgonulluluk.mp3",
     "ses_var": true
@@ -54,7 +54,7 @@
     "slug": "anlayis",
     "ar": "الفهم / الإدراك",
     "ar_harakeli": "الفَهْم / الإِدْرَاك",
-    "soz": "Anlayış; kibirli bir bilgiçlik ile değil, alçakgönüllülük ile ortaya çıkar.",
+    "soz": "Anlama işi, idrak.",
     "foto": "https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/anlayis.mp3",
     "ses_var": true
@@ -66,7 +66,7 @@
     "slug": "arayis",
     "ar": "الطلب / البحث",
     "ar_harakeli": "الطَّلَب / البَحْث",
-    "soz": "Aşk adayıştır, arayış değil! Sen adanmışsan ve yanmışsan bu uğurda, aşk seni bulmaya gelir.",
+    "soz": "Arama işi.",
     "foto": "https://images.unsplash.com/photo-1555488205-d5e67846cf40?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/arayis.mp3",
     "ses_var": true
@@ -78,7 +78,7 @@
     "slug": "ask",
     "ar": "العشق",
     "ar_harakeli": "العِشْق",
-    "soz": "Aşk; sandığın kadar değil, yandığın kadardır.",
+    "soz": "Bir kimse veya bir şeye duyulan çok kuvvetli sevgi.",
     "foto": "https://images.unsplash.com/photo-1561212856-44e9bae482aa?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ask.mp3",
     "ses_var": true
@@ -90,7 +90,7 @@
     "slug": "ates",
     "ar": "النار",
     "ar_harakeli": "النَّار",
-    "soz": "Âşıkların gönüllerinin yanışıyla gözyaşları olmasaydı, dünyada su da olmazdı ateş de.",
+    "soz": "Tasavvufi manada ilahi aşk, yanıp olgunlaşmak.",
     "foto": "https://images.unsplash.com/photo-1507048947301-7afc2aca0edc?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ates.mp3",
     "ses_var": true
@@ -102,7 +102,7 @@
     "slug": "ayrilik",
     "ar": "الفراق / الفرقة",
     "ar_harakeli": "الفِرَاق / الفُرْقَة",
-    "soz": "Dinle neyden, bak neler söyler durur; dertlerinden, ayrılıktan dem vurur.",
+    "soz": "Tasavvufi manada ruhun asıl vatanından ve ilahi kaynaktan uzak kalmasıdır.",
     "foto": "https://images.unsplash.com/photo-1667331634686-313ec875d91e?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ayrilik.mp3",
     "ses_var": true
@@ -114,7 +114,7 @@
     "slug": "baris",
     "ar": "السلام / الصلح",
     "ar_harakeli": "السَّلَام / الصُّلْح",
-    "soz": "Barış, düşmanlığın son bulduğu değil, sevginin ve anlayışın yeşerdiği bir bahçedir.",
+    "soz": "Tasavvufi manada insanın önce kendi nefsiyle, sonra kâinatla çekişmesinin sona ermesidir.",
     "foto": "https://images.unsplash.com/photo-1507126882445-434b04530d1a?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/baris.mp3",
     "ses_var": true
@@ -126,7 +126,7 @@
     "slug": "bilgelik",
     "ar": "الحكمة",
     "ar_harakeli": "الحِكْمَة",
-    "soz": "Bilgelik konuştuğunda sessiz ol ve dinle!",
+    "soz": "Bilge olma durumu ve niteliği.",
     "foto": "https://images.unsplash.com/photo-1782906187500-b57299d96aa8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/bilgelik.mp3",
     "ses_var": true
@@ -138,7 +138,7 @@
     "slug": "birlik",
     "ar": "الوحدة / التوحيد",
     "ar_harakeli": "الوَحْدَة / التَّوْحِيد",
-    "soz": "Birlik bilgide değil, görmededir.",
+    "soz": "Tek, bir olma durumu.",
     "foto": "https://images.unsplash.com/photo-1763747554376-74d21bad7dbd?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/birlik.mp3",
     "ses_var": true
@@ -150,7 +150,7 @@
     "slug": "comertlik",
     "ar": "السخاء / الجود",
     "ar_harakeli": "السَّخَاء / الجُود",
-    "soz": "Cömertlik ve yardım etmede akarsu gibi ol.",
+    "soz": "Bir kişinin sahip olduklarını karşılık beklemeden başkalarıyla paylaşmasıdır.",
     "foto": "https://images.unsplash.com/photo-1506618689200-beb1d7f86e33?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/comertlik.mp3",
     "ses_var": true
@@ -162,7 +162,7 @@
     "slug": "dinlemek",
     "ar": "الاستماع / الإنصات",
     "ar_harakeli": "الاِسْتِمَاع / الإِنْصَات",
-    "soz": "Başkasının ruhunu dinlemek, bir insanın bir başkası için yaptığı en büyük hizmet olabilir.",
+    "soz": "Bir sesin, sözün veya müziğin anlamını kavramak amacıyla kulak vermek, ilgilenerek işitmek.",
     "foto": "https://images.unsplash.com/photo-1684166251886-5c4fbb1d3c5b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/dinlemek.mp3",
     "ses_var": true
@@ -174,7 +174,7 @@
     "slug": "dogruluk",
     "ar": "الصدق / السداد",
     "ar_harakeli": "الصِّدْق / السَّدَاد",
-    "soz": "Cümleler doğrudur sen doğru isen, doğruluk bulunmaz sen eğri isen.",
+    "soz": "Tasavvufta doğruluk kalbin, dilin ve amelin tam bir uyum içinde olmasıdır.",
     "foto": "https://images.unsplash.com/photo-1756365951512-b15739bfbf4c?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/dogruluk.mp3",
     "ses_var": true
@@ -186,7 +186,7 @@
     "slug": "dostluk",
     "ar": "الصداقة / المودة",
     "ar_harakeli": "الصَّدَاقَة / المَوَدَّة",
-    "soz": "Çelik ve demir kırılır ama sağlam dostluk ne solar ne de kırılır.",
+    "soz": "Tasavvufta dostluk, Allah'ın rızasını kazanmak için kullarla çıkarsız, samimi ve karşılıksız bir bağ kurmaktır.",
     "foto": "https://images.unsplash.com/photo-1672577060303-216025d3536f?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/dostluk.mp3",
     "ses_var": true
@@ -198,7 +198,7 @@
     "slug": "donusum",
     "ar": "التحول / التغير",
     "ar_harakeli": "التَّحَوُّل / التَّغَيُّر",
-    "soz": "Gerçek dönüşüm yalnızlıkla başlar.",
+    "soz": "Bir durumdan başka bir duruma geçme.",
     "foto": "https://images.unsplash.com/photo-1566232005979-201e12892389?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/donusum.mp3",
     "ses_var": true
@@ -210,7 +210,7 @@
     "slug": "golge",
     "ar": "الظل",
     "ar_harakeli": "الظِّلّ",
-    "soz": "Duvar uzun gölge salsa da, o gölge yine döner aslına.",
+    "soz": "Koruma, kayırma, himaye.",
     "foto": "https://images.unsplash.com/photo-1663790682196-926e224c50a7?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/golge.mp3",
     "ses_var": true
@@ -222,7 +222,7 @@
     "slug": "gonul",
     "ar": "القلب / الفؤاد",
     "ar_harakeli": "القَلْب / الفُؤَاد",
-    "soz": "Gönül Çalab'ın tahtı, Çalap gönüle baktı; iki cihan bedbahtı, kim gönül yıkar ise.",
+    "soz": "Sevgi, istek, düşünüş vb. duyguların kaynağı.",
     "foto": "https://images.unsplash.com/photo-1530906622963-8a60586a49c7?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/gonul.mp3",
     "ses_var": true
@@ -234,7 +234,7 @@
     "slug": "guzellik",
     "ar": "الجمال",
     "ar_harakeli": "الجَمَال",
-    "soz": "Kimde bir güzellik varsa, bilsin ki ödünçtür.",
+    "soz": "Ahlâk ve fikrî nitelikleriyle hayranlık uyandıran şey.",
     "foto": "https://images.unsplash.com/photo-1775591649052-bd0778172751?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/guzellik.mp3",
     "ses_var": true
@@ -246,7 +246,7 @@
     "slug": "hakikat",
     "ar": "الحقيقة",
     "ar_harakeli": "الحَقِيقَة",
-    "soz": "Hakikat bir aynaydı; yere düştü ve parçalandı. Herkes bir parçasını aldı, baktı ve hakikati bulduğunu sandı.",
+    "soz": "Gerçek.",
     "foto": "https://images.unsplash.com/photo-1759930018644-ddf215c741f1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hakikat.mp3",
     "ses_var": true
@@ -258,7 +258,7 @@
     "slug": "hasret",
     "ar": "الحسرة / الشوق",
     "ar_harakeli": "الحَسْرَة / الشَّوْق",
-    "soz": "Parmak kaleme hasret, kalem kâğıda hasret; kâğıt kelâma hasret, kelâm ilhama hasret.",
+    "soz": "Özlem.",
     "foto": "https://images.unsplash.com/photo-1511634829096-045a111727eb?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hasret.mp3",
     "ses_var": true
@@ -270,7 +270,7 @@
     "slug": "hikmet",
     "ar": "الحكمة",
     "ar_harakeli": "الحِكْمَة",
-    "soz": "Hikmet, bir feyiz ağacıdır ki kökü kalpte, yemişleri ağızdadır.",
+    "soz": "Hak ve hakikate uygun.",
     "foto": "https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hikmet.mp3",
     "ses_var": true
@@ -282,7 +282,7 @@
     "slug": "hosgoru",
     "ar": "التسامح / التساهل",
     "ar_harakeli": "التَّسَامُح / التَّسَاهُل",
-    "soz": "Hoşgörülükte deniz gibi ol.",
+    "soz": "Yapılan yanlış veya kötü davranışları anlayışla karşılayarak affetme.",
     "foto": "https://images.unsplash.com/photo-1468581264429-2548ef9eb732?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/hosgoru.mp3",
     "ses_var": true
@@ -294,7 +294,7 @@
     "slug": "isik",
     "ar": "النور / الضوء",
     "ar_harakeli": "النُّور / الضَّوْء",
-    "soz": "Geceyi seyrede seyrede öğrendim ki ışık insanın içinde yanmıyorsa yüzüne vurmuyor.",
+    "soz": "Yol gösteren; aydınlatan kimse, düşünce, eser.",
     "foto": "https://images.unsplash.com/photo-1569924259120-22d9307489cf?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/isik.mp3",
     "ses_var": true
@@ -306,7 +306,7 @@
     "slug": "idrak",
     "ar": "الإدراك",
     "ar_harakeli": "الإِدْرَاك",
-    "soz": "Akıl ilmin temeli, idrakin sebebidir.",
+    "soz": "Sadece zihinsel olarak bir bilgiyi bilmek değil, o bilginin kalbe inmesi, yaşanarak sindirilmesi.",
     "foto": "https://images.unsplash.com/photo-1490682143684-14369e18dce8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/idrak.mp3",
     "ses_var": true
@@ -318,7 +318,7 @@
     "slug": "insanlik",
     "ar": "الإنسانية",
     "ar_harakeli": "الإِنْسَانِيَّة",
-    "soz": "İnsanlık, içimizdeki merhametin dışa vurulmuş hâlidir.",
+    "soz": "İnsan olma durumu, beşeriyet.",
     "foto": "https://images.unsplash.com/photo-1542323228-002ac256e7b8?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/insanlik.mp3",
     "ses_var": true
@@ -330,7 +330,7 @@
     "slug": "irfan",
     "ar": "العرفان",
     "ar_harakeli": "العِرْفَان",
-    "soz": "Akıllı ve irfan sahibi kimse, meyveli ağaç gibi mütevazı olur.",
+    "soz": "Gerçeğe ulaştırıcı güçlü seziş.",
     "foto": "https://images.unsplash.com/photo-1660568704661-8f11a707784b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/irfan.mp3",
     "ses_var": true
@@ -342,7 +342,7 @@
     "slug": "iyilik",
     "ar": "الإحسان / الخير",
     "ar_harakeli": "الإِحْسَان / الخَيْر",
-    "soz": "Gerçek sevgi, iyilik gördüğünde artmayan, kötülük gördüğünde eksilmeyendir.",
+    "soz": "Karşılık beklenilmeden yapılan yardım.",
     "foto": "https://images.unsplash.com/photo-1505455184862-554165e5f6ba?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/iyilik.mp3",
     "ses_var": true
@@ -354,7 +354,7 @@
     "slug": "kalp",
     "ar": "القلب",
     "ar_harakeli": "القَلْب",
-    "soz": "Kalp denizdir, dil de kıyı; denizde ne varsa kıyıya o vurur.",
+    "soz": "Yürek.",
     "foto": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kalp.mp3",
     "ses_var": true
@@ -366,7 +366,7 @@
     "slug": "kanaat",
     "ar": "القناعة",
     "ar_harakeli": "القَنَاعَة",
-    "soz": "Kanaat, bitmez tükenmez bir hazinedir.",
+    "soz": "Elindekinden hoşnut olma durumu, yeterli bulma.",
     "foto": "https://images.unsplash.com/photo-1535395155851-2088a2a94701?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kanaat.mp3",
     "ses_var": true
@@ -378,7 +378,7 @@
     "slug": "kardeslik",
     "ar": "الأخوة",
     "ar_harakeli": "الأُخُوَّة",
-    "soz": "Kardeşlik öyle bir denizdir ki dibi bulunmaz, öyle bir sırdır ki her gönül kaldırmaz.",
+    "soz": "Birlik ve beraberlik.",
     "foto": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kardeslik.mp3",
     "ses_var": true
@@ -390,7 +390,7 @@
     "slug": "kavusma",
     "ar": "الوصل / الوصال",
     "ar_harakeli": "الوَصْل / الوِصَال",
-    "soz": "Bu hâl sana batmak, kaybolmak gibi görünse de aslında doğmaktır, yeniden hayata kavuşmaktır.",
+    "soz": "Kavuşmak işi.",
     "foto": "https://images.unsplash.com/photo-1559769732-3a943df124b0?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/kavusma.mp3",
     "ses_var": true
@@ -402,7 +402,7 @@
     "slug": "marifet",
     "ar": "المعرفة",
     "ar_harakeli": "المَعْرِفَة",
-    "soz": "Kusur bulmak için bakma birine, kusuru örtmeyi marifet edin kendine.",
+    "soz": "Herhangi bir işi yapmada ustalık.",
     "foto": "https://images.unsplash.com/photo-1581084121296-8b65c4f80452?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/marifet.mp3",
     "ses_var": true
@@ -414,7 +414,7 @@
     "slug": "merhamet",
     "ar": "الرحمة",
     "ar_harakeli": "الرَّحْمَة",
-    "soz": "Şefkat ve merhamette güneş gibi ol.",
+    "soz": "Bir kimsenin veya bir başka canlının karşılaştığı kötü durumdan dolayı duyulan üzüntü.",
     "foto": "https://images.unsplash.com/photo-1531917517452-0068c593a675?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/merhamet.mp3",
     "ses_var": true
@@ -426,7 +426,7 @@
     "slug": "nefes",
     "ar": "النفس",
     "ar_harakeli": "النَّفَس",
-    "soz": "Nefes sese dönüşür, ses hikâyeye, hikâye hakikate varır.",
+    "soz": "Tasavvufta nefes, Allah'ın yaratma iradesini ve merhametini simgeleyen temel bir kavramdır.",
     "foto": "https://images.unsplash.com/photo-1696279976107-4d80eb0a7d82?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/nefes.mp3",
     "ses_var": true
@@ -438,7 +438,7 @@
     "slug": "ney",
     "ar": "الناي",
     "ar_harakeli": "النَّاي",
-    "soz": "Dinle bu ney nasıl şikâyet etmede, ayrılıkları nasıl hikâye etmede.",
+    "soz": "Kamıştan yapılan ve uçtan üflenerek çalınan geleneksel bir nefesli çalgıdır.",
     "foto": "https://images.unsplash.com/photo-1645772647876-76f184a402a1?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ney.mp3",
     "ses_var": true
@@ -450,7 +450,7 @@
     "slug": "niyet",
     "ar": "النية",
     "ar_harakeli": "النِّيَّة",
-    "soz": "Allah'ın kuluna yardımı, kulun niyeti kadardır.",
+    "soz": "Bir kişinin herhangi bir işe girişmeden veya bir eylemi gerçekleştirmeden önce zihninde ve kalbinde belirlediği amaç.",
     "foto": "https://images.unsplash.com/photo-1707129901265-c5bfee67a60b?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/niyet.mp3",
     "ses_var": true
@@ -462,7 +462,7 @@
     "slug": "olgunluk",
     "ar": "النضج / الكمال",
     "ar_harakeli": "النُّضْج / الكَمَال",
-    "soz": "Olgunluk yaşla değil, sorumluluk duygusu ve yaşanan deneyimlerle gelir.",
+    "soz": "İnsanların bilgi, görgü ve hoşgörü bakımından gereği kadar gelişmiş olma durumu.",
     "foto": "https://images.unsplash.com/photo-1763323881052-e83de577e7cd?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/olgunluk.mp3",
     "ses_var": true
@@ -474,7 +474,7 @@
     "slug": "ozlem",
     "ar": "الشوق / الحنين",
     "ar_harakeli": "الشَّوْق / الحَنِين",
-    "soz": "İnanan bilir ki özlemlerin sonu vuslat, hüzünlerin sonu tebessümdür.",
+    "soz": "Bir kimseyi veya bir şeyi görme, kavuşma isteği.",
     "foto": "https://images.unsplash.com/photo-1599615811451-4ceffd586d65?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ozlem.mp3",
     "ses_var": true
@@ -486,7 +486,7 @@
     "slug": "ruh",
     "ar": "الروح",
     "ar_harakeli": "الرُّوح",
-    "soz": "Beden yemekle, ruh ise yedirmekle doyar.",
+    "soz": "Can.",
     "foto": "https://images.unsplash.com/photo-1707517009384-c58605e7cdd9?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/ruh.mp3",
     "ses_var": true
@@ -498,7 +498,7 @@
     "slug": "sabir",
     "ar": "الصبر",
     "ar_harakeli": "الصَّبْر",
-    "soz": "Sabır nedir? Dikene bakıp gülü, geceye bakıp gündüzü tahayyül edebilmektir.",
+    "soz": "Acı, yoksulluk vb. üzücü durumlar karşısında ses çıkarmadan onların geçmesini bekleme erdemi.",
     "foto": "https://images.unsplash.com/photo-1556010656-e60700d4c0d5?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sabir.mp3",
     "ses_var": true
@@ -510,7 +510,7 @@
     "slug": "sadakat",
     "ar": "الوفاء / الصدق",
     "ar_harakeli": "الوَفَاء / الصِّدْق",
-    "soz": "Sadakat; gülü koparmak değil, koklamaktır.",
+    "soz": "Bir kimseye veya değere karşı gösterilen içten bağlılık, dürüstlük hâli.",
     "foto": "https://images.unsplash.com/photo-1600364906358-46c2d712a646?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sadakat.mp3",
     "ses_var": true
@@ -522,7 +522,7 @@
     "slug": "samimiyet",
     "ar": "الإخلاص",
     "ar_harakeli": "الإِخْلَاص",
-    "soz": "Samimiyet, dilimiz ile kalbimizin bir olmasıdır.",
+    "soz": "Bir kişinin iç dünyası ile dışa yansıttığı söz, duygu, düşünce ve davranışların bir olması, olduğu gibi görünmesi.",
     "foto": "https://images.unsplash.com/photo-1620416265040-cc777cad1883?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/samimiyet.mp3",
     "ses_var": true
@@ -534,7 +534,7 @@
     "slug": "sir",
     "ar": "السر",
     "ar_harakeli": "السِّرّ",
-    "soz": "Sır gibi seversen muradın gerçekleşir; çünkü tohum toprağa gizlenirse yeşerir.",
+    "soz": "Başkalarından gizlenen, açığa vurulmayan gizli durum veya hakikat.",
     "foto": "https://images.unsplash.com/photo-1590280986931-d675a2cf9b2e?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sir.mp3",
     "ses_var": true
@@ -546,7 +546,7 @@
     "slug": "sukur",
     "ar": "الشكر",
     "ar_harakeli": "الشُّكْر",
-    "soz": "Şükür; nimeti değil, vereni görmektir.",
+    "soz": "İyiliği bilmek, minnettarlık duymak.",
     "foto": "https://images.unsplash.com/photo-1499209974431-9dddcece7f88?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/sukur.mp3",
     "ses_var": true
@@ -558,7 +558,7 @@
     "slug": "tevazu",
     "ar": "التواضع",
     "ar_harakeli": "التَّوَاضُع",
-    "soz": "Tevazu ve alçak gönüllülükte toprak gibi ol.",
+    "soz": "Alçakgönüllülük.",
     "foto": "https://images.unsplash.com/photo-1642952273588-ed6fa28870ac?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/tevazu.mp3",
     "ses_var": true
@@ -570,7 +570,7 @@
     "slug": "vefa",
     "ar": "الوفاء",
     "ar_harakeli": "الوَفَاء",
-    "soz": "Vefa, dost ikliminde yaşayan güllerdendir.",
+    "soz": "Dostlukta, sevgide, verilen sözlerde veya yapılan iyiliklerde sebat etme, sadakat gösterme.",
     "foto": "https://images.unsplash.com/photo-1589878607495-6f7c03973ca0?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/vefa.mp3",
     "ses_var": true
@@ -582,7 +582,7 @@
     "slug": "yol",
     "ar": "الطريق / السبيل",
     "ar_harakeli": "الطَّرِيق / السَّبِيل",
-    "soz": "Gönlü açık olanın yolu da açık olur.",
+    "soz": "Gaye, amaç, çare.",
     "foto": "https://images.unsplash.com/photo-1542169096-d626c9d082ab?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/yol.mp3",
     "ses_var": true
@@ -594,7 +594,7 @@
     "slug": "yolculuk",
     "ar": "السفر / الرحلة",
     "ar_harakeli": "السَّفَر / الرِّحْلَة",
-    "soz": "Yolculuk bizi kendimize geri getirir.",
+    "soz": "Farklı bir zamana, mekâna veya düşünceye zihinsel olarak gitmek, geçmişi ya da hayalleri hatırlamak.",
     "foto": "https://images.unsplash.com/photo-1777929746539-f8b2c6ac0801?w=1200&h=900&fit=crop&crop=entropy&q=80&fm=jpg",
     "ses": "audio/yolculuk.mp3",
     "ses_var": true
